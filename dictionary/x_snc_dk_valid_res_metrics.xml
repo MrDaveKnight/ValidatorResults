@@ -14,6 +14,7 @@
         <element label="DebugCallCount" max_length="40" name="debugcallcount" type="integer"/>
         <element label="DebuggerStatementCount" max_length="40" name="debuggerstatementcount" type="integer"/>
         <element label="DebugPercentage" max_length="20" name="debugpercentage" type="decimal"/>
+        <element label="Description" max_length="1000" name="description" type="string"/>
         <element label="Dictionary" max_length="40" name="dictionary" type="integer"/>
         <element label="DictionaryOverrides" max_length="40" name="dictionaryoverrides" type="integer"/>
         <element label="DoWhileStatementCount" max_length="40" name="dowhilestatementcount" type="integer"/>
@@ -43,6 +44,8 @@
         <element label="NumberOfActiveScriptedTestSteps" max_length="40" name="numberofactivescriptedteststeps" type="integer"/>
         <element label="NumberOfScriptsTested" max_length="40" name="numberofscriptstested" type="integer"/>
         <element label="OutboundEmailScript" max_length="40" name="outboundemailscript" type="integer"/>
+        <element label="Package format" max_length="40" name="package_format" type="string"/>
+        <element label="Package query" max_length="1000" name="package_query" type="string"/>
         <element label="Processors" max_length="40" name="processors" type="integer"/>
         <element label="Relationships" max_length="40" name="relationships" type="integer"/>
         <element label="ReturnStatementCount" max_length="40" name="returnstatementcount" type="integer"/>
