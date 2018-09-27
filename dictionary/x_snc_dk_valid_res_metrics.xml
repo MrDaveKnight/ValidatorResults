@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Metrics" max_length="40" name="x_snc_dk_valid_res_metrics" type="collection">
+        <element label="ATFTests" max_length="40" name="atftests" type="integer"/>
+        <element label="ATFTestSteps" max_length="40" name="atfteststeps" type="integer"/>
+        <element label="BlockStatementCount" max_length="40" name="blockstatementcount" type="integer"/>
+        <element label="BreakStatementCount" max_length="40" name="breakstatementcount" type="integer"/>
+        <element label="BusinessRules" max_length="40" name="businessrules" type="integer"/>
+        <element label="ClientScripts" max_length="40" name="clientscripts" type="integer"/>
+        <element label="CodedTestRatio" max_length="20" name="codedtestratio" type="decimal"/>
+        <element label="CodelessTestRatio" max_length="20" name="codelesstestratio" type="decimal"/>
+        <element label="CommentPercentage" max_length="20" name="commentpercentage" type="decimal"/>
+        <element label="ContinueStatementCount" max_length="40" name="continuestatementcount" type="integer"/>
+        <element label="DebugCallCount" max_length="40" name="debugcallcount" type="integer"/>
+        <element label="DebuggerStatementCount" max_length="40" name="debuggerstatementcount" type="integer"/>
+        <element label="DebugPercentage" max_length="20" name="debugpercentage" type="decimal"/>
+        <element label="Dictionary" max_length="40" name="dictionary" type="integer"/>
+        <element label="DictionaryOverrides" max_length="40" name="dictionaryoverrides" type="integer"/>
+        <element label="DoWhileStatementCount" max_length="40" name="dowhilestatementcount" type="integer"/>
+        <element label="DynamicFilters" max_length="40" name="dynamicfilters" type="integer"/>
+        <element label="ExceptionPercentage" max_length="20" name="exceptionpercentage" type="decimal"/>
+        <element label="ExpressionStatementCount" max_length="40" name="expressionstatementcount" type="integer"/>
+        <element label="FixScripts" max_length="40" name="fixscripts" type="integer"/>
+        <element label="ForOfStatementCount" max_length="40" name="forofstatementcount" type="integer"/>
+        <element label="ForStatementCount" max_length="40" name="forstatementcount" type="integer"/>
+        <element label="FunctionDeclarationCount" max_length="40" name="functiondeclarationcount" type="integer"/>
+        <element label="FunctionExpressionCount" max_length="40" name="functionexpressioncount" type="integer"/>
+        <element label="GlobalLogCallCount" max_length="40" name="globallogcallcount" type="integer"/>
+        <element label="IfStatementCount" max_length="40" name="ifstatementcount" type="integer"/>
+        <element label="InboundEmailScript" max_length="40" name="inboundemailscript" type="integer"/>
+        <element label="Instance" max_length="100" name="instance" type="url"/>
+        <element label="LabeledStatementCount" max_length="40" name="labeledstatementcount" type="integer"/>
+        <element label="LetStatementCount" max_length="40" name="letstatementcount" type="integer"/>
+        <element label="LinesOfCode" max_length="40" name="linesofcode" type="integer"/>
+        <element label="LinesOfTestCode" max_length="40" name="linesoftestcode" type="integer"/>
+        <element label="LogCallCount" max_length="40" name="logcallcount" type="integer"/>
+        <element label="LogPercentage" max_length="20" name="logpercentage" type="decimal"/>
+        <element label="ModifiedFileCount" max_length="40" name="modifiedfilecount" type="integer"/>
+        <element label="ModifiedMethodCount" max_length="40" name="modifiedmethodcount" type="integer"/>
+        <element label="NoCommentFileCount" max_length="40" name="nocommentfilecount" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="NumberOfActiveCodelessTestSteps" max_length="40" name="numberofactivecodelessteststeps" type="integer"/>
+        <element label="NumberOfActiveScriptedTestSteps" max_length="40" name="numberofactivescriptedteststeps" type="integer"/>
+        <element label="NumberOfScriptsTested" max_length="40" name="numberofscriptstested" type="integer"/>
+        <element label="OutboundEmailScript" max_length="40" name="outboundemailscript" type="integer"/>
+        <element label="Processors" max_length="40" name="processors" type="integer"/>
+        <element label="Relationships" max_length="40" name="relationships" type="integer"/>
+        <element label="ReturnStatementCount" max_length="40" name="returnstatementcount" type="integer"/>
+        <element label="Scan duration" max_length="40" name="scan_duration" type="glide_duration"/>
+        <element label="ScriptActions" max_length="40" name="scriptactions" type="integer"/>
+        <element label="ScriptIncludes" max_length="40" name="scriptincludes" type="integer"/>
+        <element label="ScriptTestPercentage" max_length="20" name="scripttestpercentage" type="decimal"/>
+        <element label="Started" max_length="40" name="started" type="glide_date_time"/>
+        <element label="SwitchStatementCount" max_length="40" name="switchstatementcount" type="integer"/>
+        <element label="ThrowStatementCount" max_length="40" name="throwstatementcount" type="integer"/>
+        <element label="Transmitted" max_length="40" name="transmitted" type="boolean"/>
+        <element label="TryStatementCount" max_length="40" name="trystatementcount" type="integer"/>
+        <element label="UIMacros" max_length="40" name="uimacros" type="integer"/>
+        <element label="UIPages" max_length="40" name="uipages" type="integer"/>
+        <element label="UIScripts" max_length="40" name="uiscripts" type="integer"/>
+        <element label="VariableDeclaratorCount" max_length="40" name="variabledeclaratorcount" type="integer"/>
+        <element label="WhileStatementCount" max_length="40" name="whilestatementcount" type="integer"/>
+        <element label="WithStatementCount" max_length="40" name="withstatementcount" type="integer"/>
+    </element>
+</database>
