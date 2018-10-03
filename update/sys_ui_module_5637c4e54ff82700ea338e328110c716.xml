@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update sys_domain="global" table="sys_ui_module">
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
     <sys_ui_module action="INSERT_OR_UPDATE">
         <active>true</active>
         <application display_value="Validator Results">9e37c4e54ff82700ea338e328110c707</application>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="File Counts" section_id="2cc6b0f14f746700ea338e328110c719" sys_domain="global" table="x_snc_dk_valid_res_metrics" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>businessrules</element>

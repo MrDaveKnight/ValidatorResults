@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Metrics" max_length="40" name="x_snc_dk_valid_res_metrics" type="collection">
         <element label="ATFTests" max_length="40" name="atftests" type="integer"/>
         <element label="ATFTestSteps" max_length="40" name="atfteststeps" type="integer"/>
@@ -32,7 +31,7 @@
         <element label="Instance" max_length="100" name="instance" type="url"/>
         <element label="LabeledStatementCount" max_length="40" name="labeledstatementcount" type="integer"/>
         <element label="LetStatementCount" max_length="40" name="letstatementcount" type="integer"/>
-        <element label="LinesOfCode" max_length="40" name="linesofcode" type="integer"/>
+        <element hint="Number of Javascript statements, variable declarations, assignment expressions and function calls (not the number of printed lines)" label="LinesOfCode" max_length="40" name="linesofcode" type="integer"/>
         <element label="LinesOfTestCode" max_length="40" name="linesoftestcode" type="integer"/>
         <element label="LogCallCount" max_length="40" name="logcallcount" type="integer"/>
         <element label="LogPercentage" max_length="20" name="logpercentage" type="decimal"/>
@@ -52,6 +51,7 @@
         <element label="Scan duration" max_length="40" name="scan_duration" type="glide_duration"/>
         <element label="ScriptActions" max_length="40" name="scriptactions" type="integer"/>
         <element label="ScriptIncludes" max_length="40" name="scriptincludes" type="integer"/>
+        <element hint="The total number of nodes in the abstract syntax trees of all scripts. A measure of scale and complexity." label="ScriptSize" max_length="40" name="scriptsize" type="integer"/>
         <element label="ScriptTestPercentage" max_length="20" name="scripttestpercentage" type="decimal"/>
         <element label="Started" max_length="40" name="started" type="glide_date_time"/>
         <element label="SwitchStatementCount" max_length="40" name="switchstatementcount" type="integer"/>
