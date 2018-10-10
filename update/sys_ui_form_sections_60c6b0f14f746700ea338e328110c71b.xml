@@ -66,7 +66,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_snc_dk_valid_res_metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">60c6b0f14f746700ea338e328110c71b</sys_ui_form>
-            <sys_ui_section caption="File Counts" display_value="File Counts" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">2cc6b0f14f746700ea338e328110c719</sys_ui_section>
+            <sys_ui_section caption="Record Counts" display_value="Record Counts" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">2cc6b0f14f746700ea338e328110c719</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
             <sys_updated_on>2018-09-27 15:51:51</sys_updated_on>
         </sys_ui_form_section>
@@ -80,7 +80,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_snc_dk_valid_res_metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">60c6b0f14f746700ea338e328110c71b</sys_ui_form>
-            <sys_ui_section caption="Raw Metrics" display_value="Raw Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
+            <sys_ui_section caption="Raw Script Metrics" display_value="Raw Script Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
             <sys_updated_on>2018-09-27 15:51:51</sys_updated_on>
         </sys_ui_form_section>

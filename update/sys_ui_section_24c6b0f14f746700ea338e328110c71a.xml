@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="Raw Metrics" section_id="24c6b0f14f746700ea338e328110c71a" sys_domain="global" table="x_snc_dk_valid_res_metrics" version="3" view="">
+    <sys_ui_section caption="Raw Script Metrics" section_id="24c6b0f14f746700ea338e328110c71a" sys_domain="global" table="x_snc_dk_valid_res_metrics" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>atftests</element>
             <position>0</position>
@@ -8,7 +8,7 @@
             <sys_id>bfa97c354f746700ea338e328110c711</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Raw Metrics" display_value="Raw Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
+            <sys_ui_section caption="Raw Script Metrics" display_value="Raw Script Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
             <sys_updated_on>2018-09-27 16:04:38</sys_updated_on>
             <sys_user/>
@@ -22,7 +22,7 @@
             <sys_id>33a97c354f746700ea338e328110c712</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Raw Metrics" display_value="Raw Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
+            <sys_ui_section caption="Raw Script Metrics" display_value="Raw Script Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
             <sys_updated_on>2018-09-27 16:04:38</sys_updated_on>
             <sys_user/>
@@ -36,7 +36,7 @@
             <sys_id>b3a97c354f746700ea338e328110c712</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Raw Metrics" display_value="Raw Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
+            <sys_ui_section caption="Raw Script Metrics" display_value="Raw Script Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
             <sys_updated_on>2018-09-27 16:04:38</sys_updated_on>
             <sys_user/>
@@ -50,7 +50,7 @@
             <sys_id>37a97c354f746700ea338e328110c712</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Raw Metrics" display_value="Raw Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
+            <sys_ui_section caption="Raw Script Metrics" display_value="Raw Script Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
             <sys_updated_on>2018-09-27 16:04:38</sys_updated_on>
             <sys_user/>
@@ -64,7 +64,7 @@
             <sys_id>b7a97c354f746700ea338e328110c712</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Raw Metrics" display_value="Raw Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
+            <sys_ui_section caption="Raw Script Metrics" display_value="Raw Script Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
             <sys_updated_on>2018-09-27 16:04:38</sys_updated_on>
             <sys_user/>
@@ -78,7 +78,7 @@
             <sys_id>3ba97c354f746700ea338e328110c712</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Raw Metrics" display_value="Raw Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
+            <sys_ui_section caption="Raw Script Metrics" display_value="Raw Script Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
             <sys_updated_on>2018-09-27 16:04:38</sys_updated_on>
             <sys_user/>
@@ -92,7 +92,7 @@
             <sys_id>bba97c354f746700ea338e328110c712</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Raw Metrics" display_value="Raw Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
+            <sys_ui_section caption="Raw Script Metrics" display_value="Raw Script Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
             <sys_updated_on>2018-09-27 16:04:38</sys_updated_on>
             <sys_user/>
@@ -106,7 +106,7 @@
             <sys_id>3fa97c354f746700ea338e328110c712</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Raw Metrics" display_value="Raw Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
+            <sys_ui_section caption="Raw Script Metrics" display_value="Raw Script Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
             <sys_updated_on>2018-09-27 16:04:38</sys_updated_on>
             <sys_user/>
@@ -120,7 +120,7 @@
             <sys_id>bfa97c354f746700ea338e328110c712</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Raw Metrics" display_value="Raw Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
+            <sys_ui_section caption="Raw Script Metrics" display_value="Raw Script Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
             <sys_updated_on>2018-09-27 16:04:38</sys_updated_on>
             <sys_user/>
@@ -134,7 +134,7 @@
             <sys_id>33a97c354f746700ea338e328110c713</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Raw Metrics" display_value="Raw Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
+            <sys_ui_section caption="Raw Script Metrics" display_value="Raw Script Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
             <sys_updated_on>2018-09-27 16:04:38</sys_updated_on>
             <sys_user/>
@@ -148,7 +148,7 @@
             <sys_id>b3a97c354f746700ea338e328110c713</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Raw Metrics" display_value="Raw Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
+            <sys_ui_section caption="Raw Script Metrics" display_value="Raw Script Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
             <sys_updated_on>2018-09-27 16:04:38</sys_updated_on>
             <sys_user/>
@@ -162,7 +162,7 @@
             <sys_id>37a97c354f746700ea338e328110c713</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Raw Metrics" display_value="Raw Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
+            <sys_ui_section caption="Raw Script Metrics" display_value="Raw Script Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
             <sys_updated_on>2018-09-27 16:04:38</sys_updated_on>
             <sys_user/>
@@ -176,7 +176,7 @@
             <sys_id>b7a97c354f746700ea338e328110c713</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Raw Metrics" display_value="Raw Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
+            <sys_ui_section caption="Raw Script Metrics" display_value="Raw Script Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
             <sys_updated_on>2018-09-27 16:04:38</sys_updated_on>
             <sys_user/>
@@ -190,7 +190,7 @@
             <sys_id>3ba97c354f746700ea338e328110c713</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Raw Metrics" display_value="Raw Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
+            <sys_ui_section caption="Raw Script Metrics" display_value="Raw Script Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
             <sys_updated_on>2018-09-27 16:04:38</sys_updated_on>
             <sys_user/>
@@ -204,7 +204,7 @@
             <sys_id>bba97c354f746700ea338e328110c713</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Raw Metrics" display_value="Raw Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
+            <sys_ui_section caption="Raw Script Metrics" display_value="Raw Script Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
             <sys_updated_on>2018-09-27 16:04:38</sys_updated_on>
             <sys_user/>
@@ -218,7 +218,7 @@
             <sys_id>3fa97c354f746700ea338e328110c713</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Raw Metrics" display_value="Raw Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
+            <sys_ui_section caption="Raw Script Metrics" display_value="Raw Script Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
             <sys_updated_on>2018-09-27 16:04:38</sys_updated_on>
             <sys_user/>
@@ -232,7 +232,7 @@
             <sys_id>bfa97c354f746700ea338e328110c713</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Raw Metrics" display_value="Raw Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
+            <sys_ui_section caption="Raw Script Metrics" display_value="Raw Script Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
             <sys_updated_on>2018-09-27 16:04:38</sys_updated_on>
             <sys_user/>
@@ -246,7 +246,7 @@
             <sys_id>33a97c354f746700ea338e328110c714</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Raw Metrics" display_value="Raw Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
+            <sys_ui_section caption="Raw Script Metrics" display_value="Raw Script Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
             <sys_updated_on>2018-09-27 16:04:38</sys_updated_on>
             <sys_user/>
@@ -260,7 +260,7 @@
             <sys_id>b3a97c354f746700ea338e328110c714</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Raw Metrics" display_value="Raw Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
+            <sys_ui_section caption="Raw Script Metrics" display_value="Raw Script Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
             <sys_updated_on>2018-09-27 16:04:38</sys_updated_on>
             <sys_user/>
@@ -274,7 +274,7 @@
             <sys_id>37a97c354f746700ea338e328110c714</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Raw Metrics" display_value="Raw Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
+            <sys_ui_section caption="Raw Script Metrics" display_value="Raw Script Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
             <sys_updated_on>2018-09-27 16:04:38</sys_updated_on>
             <sys_user/>
@@ -288,7 +288,7 @@
             <sys_id>b7a97c354f746700ea338e328110c714</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Raw Metrics" display_value="Raw Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
+            <sys_ui_section caption="Raw Script Metrics" display_value="Raw Script Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
             <sys_updated_on>2018-09-27 16:04:38</sys_updated_on>
             <sys_user/>
@@ -302,7 +302,7 @@
             <sys_id>3ba97c354f746700ea338e328110c714</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Raw Metrics" display_value="Raw Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
+            <sys_ui_section caption="Raw Script Metrics" display_value="Raw Script Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
             <sys_updated_on>2018-09-27 16:04:38</sys_updated_on>
             <sys_user/>
@@ -316,7 +316,7 @@
             <sys_id>bba97c354f746700ea338e328110c714</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Raw Metrics" display_value="Raw Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
+            <sys_ui_section caption="Raw Script Metrics" display_value="Raw Script Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
             <sys_updated_on>2018-09-27 16:04:38</sys_updated_on>
             <sys_user/>
@@ -330,7 +330,7 @@
             <sys_id>3fa97c354f746700ea338e328110c714</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Raw Metrics" display_value="Raw Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
+            <sys_ui_section caption="Raw Script Metrics" display_value="Raw Script Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
             <sys_updated_on>2018-09-27 16:04:38</sys_updated_on>
             <sys_user/>
@@ -344,7 +344,7 @@
             <sys_id>bfa97c354f746700ea338e328110c714</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Raw Metrics" display_value="Raw Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
+            <sys_ui_section caption="Raw Script Metrics" display_value="Raw Script Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
             <sys_updated_on>2018-09-27 16:04:38</sys_updated_on>
             <sys_user/>
@@ -358,7 +358,7 @@
             <sys_id>33a97c354f746700ea338e328110c715</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Raw Metrics" display_value="Raw Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
+            <sys_ui_section caption="Raw Script Metrics" display_value="Raw Script Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
             <sys_updated_on>2018-09-27 16:04:38</sys_updated_on>
             <sys_user/>
@@ -372,7 +372,7 @@
             <sys_id>b3a97c354f746700ea338e328110c715</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Raw Metrics" display_value="Raw Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
+            <sys_ui_section caption="Raw Script Metrics" display_value="Raw Script Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
             <sys_updated_on>2018-09-27 16:04:38</sys_updated_on>
             <sys_user/>
@@ -386,7 +386,7 @@
             <sys_id>37a97c354f746700ea338e328110c715</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Raw Metrics" display_value="Raw Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
+            <sys_ui_section caption="Raw Script Metrics" display_value="Raw Script Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
             <sys_updated_on>2018-09-27 16:04:38</sys_updated_on>
             <sys_user/>
@@ -400,7 +400,7 @@
             <sys_id>b7a97c354f746700ea338e328110c715</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Raw Metrics" display_value="Raw Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
+            <sys_ui_section caption="Raw Script Metrics" display_value="Raw Script Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
             <sys_updated_on>2018-09-27 16:04:38</sys_updated_on>
             <sys_user/>
@@ -414,7 +414,7 @@
             <sys_id>3ba97c354f746700ea338e328110c715</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Raw Metrics" display_value="Raw Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
+            <sys_ui_section caption="Raw Script Metrics" display_value="Raw Script Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
             <sys_updated_on>2018-09-27 16:04:38</sys_updated_on>
             <sys_user/>
@@ -428,14 +428,14 @@
             <sys_id>bba97c354f746700ea338e328110c715</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Raw Metrics" display_value="Raw Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
+            <sys_ui_section caption="Raw Script Metrics" display_value="Raw Script Metrics" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">24c6b0f14f746700ea338e328110c71a</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
             <sys_updated_on>2018-09-27 16:04:38</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
-            <caption>Raw Metrics</caption>
+            <caption>Raw Script Metrics</caption>
             <header>false</header>
             <name>x_snc_dk_valid_res_metrics</name>
             <roles/>
@@ -446,8 +446,8 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>24c6b0f14f746700ea338e328110c71a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Raw Metrics</sys_name>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Raw Script Metrics</sys_name>
             <sys_overrides/>
             <sys_package display_value="Validator Results" source="x_snc_dk_valid_res">1d3708654ff82700ea338e328110c7c9</sys_package>
             <sys_policy/>
@@ -455,7 +455,7 @@
             <sys_scope display_value="Validator Results">1d3708654ff82700ea338e328110c7c9</sys_scope>
             <sys_update_name>sys_ui_section_24c6b0f14f746700ea338e328110c71a</sys_update_name>
             <sys_updated_by>dave.knight</sys_updated_by>
-            <sys_updated_on>2018-09-27 15:51:51</sys_updated_on>
+            <sys_updated_on>2018-10-10 15:43:17</sys_updated_on>
             <sys_user/>
             <title>false</title>
             <view display_value="Default view" name="NULL">Default view</view>
