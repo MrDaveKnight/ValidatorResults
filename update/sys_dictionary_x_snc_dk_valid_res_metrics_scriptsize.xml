@@ -54,7 +54,7 @@
         <sys_created_by>dave.knight</sys_created_by>
         <sys_created_on>2018-10-03 15:59:39</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>0a023faf4f74e300ea338e328110c7cf</sys_id>
+        <sys_id>88977dc74f412f00ea338e328110c75e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>ScriptSize</sys_name>
         <sys_package display_value="Validator Results" source="x_snc_dk_valid_res">1d3708654ff82700ea338e328110c7c9</sys_package>
@@ -62,8 +62,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Validator Results">1d3708654ff82700ea338e328110c7c9</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_dk_valid_res_metrics_scriptsize</sys_update_name>
-        <sys_updated_by>dave.knight</sys_updated_by>
-        <sys_updated_on>2018-10-03 15:59:39</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-10-14 04:03:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

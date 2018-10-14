@@ -14,7 +14,6 @@
         <element label="DebugCallCount" max_length="40" name="debugcallcount" type="integer"/>
         <element label="DebuggerStatementCount" max_length="40" name="debuggerstatementcount" type="integer"/>
         <element label="DebugPercentage" max_length="20" name="debugpercentage" type="decimal"/>
-        <element label="DeclarativeLogic" max_length="40" name="declarativelogic" type="integer"/>
         <element label="Description" max_length="1000" name="description" type="string"/>
         <element label="Dictionary" max_length="40" name="dictionary" type="integer"/>
         <element label="DictionaryOverrides" max_length="40" name="dictionaryoverrides" type="integer"/>
@@ -28,7 +27,10 @@
         <element label="ForStatementCount" max_length="40" name="forstatementcount" type="integer"/>
         <element label="FunctionDeclarationCount" max_length="40" name="functiondeclarationcount" type="integer"/>
         <element label="FunctionExpressionCount" max_length="40" name="functionexpressioncount" type="integer"/>
+        <element label="GlobalConfig" max_length="40" name="globalconfig" type="integer"/>
         <element label="GlobalLogCallCount" max_length="40" name="globallogcallcount" type="integer"/>
+        <element label="GlobalLogic" max_length="40" name="globallogic" type="integer"/>
+        <element label="GraphicalLogic" max_length="40" name="graphicallogic" type="integer"/>
         <element label="IfStatementCount" max_length="40" name="ifstatementcount" type="integer"/>
         <element label="InboundEmailScript" max_length="40" name="inboundemailscript" type="integer"/>
         <element label="Instance" max_length="100" name="instance" type="url"/>
@@ -39,25 +41,30 @@
         <element label="LinesOfTestCode" max_length="40" name="linesoftestcode" type="integer"/>
         <element label="LogCallCount" max_length="40" name="logcallcount" type="integer"/>
         <element label="LogPercentage" max_length="20" name="logpercentage" type="decimal"/>
+        <element label="LowCodeLogic" max_length="40" name="lowlogic" type="integer"/>
         <element label="ModifiedFileCount" max_length="40" name="modifiedfilecount" type="integer"/>
         <element label="ModifiedMethodCount" max_length="40" name="modifiedmethodcount" type="integer"/>
         <element label="NoCommentFileCount" max_length="40" name="nocommentfilecount" type="integer"/>
-        <element label="NoLowLogic" max_length="40" name="nolowlogic" type="integer"/>
+        <element label="NoCodeLogic" max_length="40" name="nologic" type="integer"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="NumberOfActiveCodelessTestSteps" max_length="40" name="numberofactivecodelessteststeps" type="integer"/>
-        <element label="NumberOfActiveScriptedTestSteps" max_length="40" name="numberofactivescriptedteststeps" type="integer"/>
+        <element label="ActiveCodelessTestSteps" max_length="40" name="numberofactivecodelessteststeps" type="integer"/>
+        <element label="ActiveScriptedTestSteps" max_length="40" name="numberofactivescriptedteststeps" type="integer"/>
         <element label="NumberOfScriptsTested" max_length="40" name="numberofscriptstested" type="integer"/>
         <element label="OutboundEmailScript" max_length="40" name="outboundemailscript" type="integer"/>
         <element label="Package format" max_length="40" name="package_format" type="string"/>
         <element label="Package query" max_length="1000" name="package_query" type="string"/>
         <element label="PortalLogic" max_length="40" name="portallogic" type="integer"/>
         <element label="Processors" max_length="40" name="processors" type="integer"/>
-        <element label="ProLogic" max_length="40" name="prologic" type="integer"/>
+        <element label="ProCodeLogic" max_length="40" name="prologic" type="integer"/>
         <element label="Relationships" max_length="40" name="relationships" type="integer"/>
         <element label="ReturnStatementCount" max_length="40" name="returnstatementcount" type="integer"/>
         <element label="Scan duration" max_length="40" name="scan_duration" type="glide_duration"/>
+        <element label="ScheduledJobs" max_length="40" name="scheduledjobs" type="integer"/>
         <element label="SchemaConfig" max_length="40" name="schemaconfig" type="integer"/>
+        <element label="ScopedConfig" max_length="40" name="scopedconfig" type="integer"/>
+        <element label="ScopedLogic" max_length="40" name="scopedlogic" type="integer"/>
         <element label="ScriptActions" max_length="40" name="scriptactions" type="integer"/>
+        <element label="ScriptedConfig" max_length="40" name="scriptedconfig" type="integer"/>
         <element label="ScriptIncludes" max_length="40" name="scriptincludes" type="integer"/>
         <element hint="The total number of nodes in the abstract syntax trees of all scripts. A measure of scale and complexity." label="ScriptSize" max_length="40" name="scriptsize" type="integer"/>
         <element label="ScriptTestPercentage" max_length="20" name="scripttestpercentage" type="decimal"/>
@@ -65,6 +72,8 @@
         <element label="SwitchStatementCount" max_length="40" name="switchstatementcount" type="integer"/>
         <element label="Test" max_length="40" name="test" type="integer"/>
         <element label="ThrowStatementCount" max_length="40" name="throwstatementcount" type="integer"/>
+        <element label="TotalConfig" max_length="40" name="totalconfig" type="integer"/>
+        <element label="TotalLogic" max_length="40" name="totallogic" type="integer"/>
         <element label="Transmitted" max_length="40" name="transmitted" type="boolean"/>
         <element label="TryStatementCount" max_length="40" name="trystatementcount" type="integer"/>
         <element label="UIMacros" max_length="40" name="uimacros" type="integer"/>
@@ -73,5 +82,6 @@
         <element label="VariableDeclaratorCount" max_length="40" name="variabledeclaratorcount" type="integer"/>
         <element label="WhileStatementCount" max_length="40" name="whilestatementcount" type="integer"/>
         <element label="WithStatementCount" max_length="40" name="withstatementcount" type="integer"/>
+        <element label="WorkflowActivities" max_length="40" name="workflowactivities" type="integer"/>
     </element>
 </database>
