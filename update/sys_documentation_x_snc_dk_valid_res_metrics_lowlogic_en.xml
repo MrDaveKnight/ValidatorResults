@@ -3,7 +3,7 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>lowlogic</element>
             <help/>
-            <hint/>
+            <hint>"Low code" logic, e.g. scripted business rules or workflow activities</hint>
             <label>LowCodeLogic</label>
             <language>en</language>
             <name>x_snc_dk_valid_res_metrics</name>
@@ -13,7 +13,7 @@
             <sys_created_on>2018-10-14 04:08:32</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_id>c0d8b5cb4f412f00ea338e328110c793</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_name>LowCodeLogic</sys_name>
             <sys_package display_value="Validator Results" source="x_snc_dk_valid_res">1d3708654ff82700ea338e328110c7c9</sys_package>
             <sys_policy/>
@@ -21,7 +21,7 @@
             <sys_scope display_value="Validator Results">1d3708654ff82700ea338e328110c7c9</sys_scope>
             <sys_update_name>sys_documentation_x_snc_dk_valid_res_metrics_lowlogic_en</sys_update_name>
             <sys_updated_by>dave.knight</sys_updated_by>
-            <sys_updated_on>2018-10-14 04:17:11</sys_updated_on>
+            <sys_updated_on>2018-10-30 14:53:59</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

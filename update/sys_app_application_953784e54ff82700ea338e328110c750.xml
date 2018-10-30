@@ -15,8 +15,8 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>953784e54ff82700ea338e328110c750</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Validator Results</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Validator</sys_name>
         <sys_overrides/>
         <sys_package display_value="Validator Results" source="x_snc_dk_valid_res">1d3708654ff82700ea338e328110c7c9</sys_package>
         <sys_policy/>
@@ -24,8 +24,8 @@
         <sys_scope display_value="Validator Results">1d3708654ff82700ea338e328110c7c9</sys_scope>
         <sys_update_name>sys_app_application_953784e54ff82700ea338e328110c750</sys_update_name>
         <sys_updated_by>dave.knight</sys_updated_by>
-        <sys_updated_on>2018-09-26 17:45:38</sys_updated_on>
-        <title>Validator Results</title>
+        <sys_updated_on>2018-10-30 15:24:26</sys_updated_on>
+        <title>Validator</title>
         <view_name/>
     </sys_app_application>
 </record_update>

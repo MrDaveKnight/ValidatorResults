@@ -31,7 +31,7 @@
         <element label="GlobalConfig" max_length="40" name="globalconfig" type="integer"/>
         <element label="GlobalLogCallCount" max_length="40" name="globallogcallcount" type="integer"/>
         <element label="GlobalLogic" max_length="40" name="globallogic" type="integer"/>
-        <element label="GraphicalLogic" max_length="40" name="graphicallogic" type="integer"/>
+        <element hint="Graphical workflow activities, and flow designer (a.k.a. integration hub) steps" label="WorkflowLogic" max_length="40" name="graphicallogic" type="integer"/>
         <element label="IfStatementCount" max_length="40" name="ifstatementcount" type="integer"/>
         <element label="InboundEmailActions" max_length="40" name="inboundemailactions" type="integer"/>
         <element label="InboundEmailScript" max_length="40" name="inboundemailscript" type="integer"/>
@@ -43,11 +43,11 @@
         <element label="LinesOfTestCode" max_length="40" name="linesoftestcode" type="integer"/>
         <element label="LogCallCount" max_length="40" name="logcallcount" type="integer"/>
         <element label="LogPercentage" max_length="20" name="logpercentage" type="decimal"/>
-        <element label="LowCodeLogic" max_length="40" name="lowlogic" type="integer"/>
+        <element hint="&quot;Low code&quot; logic, e.g. scripted business rules or workflow activities" label="LowCodeLogic" max_length="40" name="lowlogic" type="integer"/>
         <element label="ManagedFileCount" max_length="40" name="modifiedfilecount" type="integer"/>
         <element label="ManagedMethodCount" max_length="40" name="modifiedmethodcount" type="integer"/>
         <element label="NoCommentFileCount" max_length="40" name="nocommentfilecount" type="integer"/>
-        <element label="NoCodeLogic" max_length="40" name="nologic" type="integer"/>
+        <element hint="Declarative &quot;No Code&quot; logic, e.g. data lookup definitions or &quot;scriptless&quot; workflow activities and business rules" label="NoCodeLogic" max_length="40" name="nologic" type="integer"/>
         <element label="Notifications" max_length="40" name="notifications" type="integer"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="ActiveCodelessTestSteps" max_length="40" name="numberofactivecodelessteststeps" type="integer"/>
@@ -59,7 +59,7 @@
         <element label="PortalLogic" max_length="40" name="portallogic" type="integer"/>
         <element label="Processors" max_length="40" name="processors" type="integer"/>
         <element label="Progress %" max_length="40" name="progress" type="percent_complete"/>
-        <element label="ProCodeLogic" max_length="40" name="prologic" type="integer"/>
+        <element hint="Advanced UI or business logic, a.k.a. &quot;Pro Code&quot;, e.g. Script Includes, UI Macros, Portal Widgets or REST APIs" label="ProCodeLogic" max_length="40" name="prologic" type="integer"/>
         <element label="Relationships" max_length="40" name="relationships" type="integer"/>
         <element label="ReturnStatementCount" max_length="40" name="returnstatementcount" type="integer"/>
         <element label="Scan duration" max_length="40" name="scan_duration" type="glide_duration"/>
@@ -82,7 +82,7 @@
             </choice>
         </element>
         <element label="SwitchStatementCount" max_length="40" name="switchstatementcount" type="integer"/>
-        <element label="Test" max_length="40" name="test" type="integer"/>
+        <element hint="ATF tests and test steps" label="Test" max_length="40" name="test" type="integer"/>
         <element label="ThrowStatementCount" max_length="40" name="throwstatementcount" type="integer"/>
         <element label="TotalConfig" max_length="40" name="totalconfig" type="integer"/>
         <element label="TotalLogic" max_length="40" name="totallogic" type="integer"/>
