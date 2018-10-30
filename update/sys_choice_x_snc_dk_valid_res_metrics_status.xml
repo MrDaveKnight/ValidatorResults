@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="status" table="x_snc_dk_valid_res_metrics" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Running</label>
+            <language>en</language>
+            <name>x_snc_dk_valid_res_metrics</name>
+            <sequence>0</sequence>
+            <sys_created_by>dave.knight</sys_created_by>
+            <sys_created_on>2018-10-27 21:36:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b95560ab4f15e740ea338e328110c795</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.knight</sys_updated_by>
+            <sys_updated_on>2018-10-27 21:36:30</sys_updated_on>
+            <value>Running</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pass</label>
+            <language>en</language>
+            <name>x_snc_dk_valid_res_metrics</name>
+            <sequence>1</sequence>
+            <sys_created_by>dave.knight</sys_created_by>
+            <sys_created_on>2018-10-27 21:36:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bd5560ab4f15e740ea338e328110c796</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.knight</sys_updated_by>
+            <sys_updated_on>2018-10-27 21:36:30</sys_updated_on>
+            <value>Pass</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fail</label>
+            <language>en</language>
+            <name>x_snc_dk_valid_res_metrics</name>
+            <sequence>2</sequence>
+            <sys_created_by>dave.knight</sys_created_by>
+            <sys_created_on>2018-10-27 21:36:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7d5560ab4f15e740ea338e328110c797</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.knight</sys_updated_by>
+            <sys_updated_on>2018-10-27 21:36:30</sys_updated_on>
+            <value>Fail</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Error</label>
+            <language>en</language>
+            <name>x_snc_dk_valid_res_metrics</name>
+            <sequence>3</sequence>
+            <sys_created_by>dave.knight</sys_created_by>
+            <sys_created_on>2018-10-27 21:37:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1e95e0ab4f15e740ea338e328110c7b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.knight</sys_updated_by>
+            <sys_updated_on>2018-10-27 21:37:38</sys_updated_on>
+            <value>Error</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <name>x_snc_dk_valid_res_metrics</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dave.knight</sys_created_by>
+            <sys_created_on>2018-10-27 21:36:30</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>755560ab4f15e740ea338e328110c796</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>status</sys_name>
+            <sys_package display_value="Validator Results" source="x_snc_dk_valid_res">1d3708654ff82700ea338e328110c7c9</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Validator Results">1d3708654ff82700ea338e328110c7c9</sys_scope>
+            <sys_update_name>sys_choice_x_snc_dk_valid_res_metrics_status</sys_update_name>
+            <sys_updated_by>dave.knight</sys_updated_by>
+            <sys_updated_on>2018-10-27 21:36:30</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

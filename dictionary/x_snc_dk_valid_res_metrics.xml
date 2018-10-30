@@ -6,6 +6,7 @@
         <element label="BlockStatementCount" max_length="40" name="blockstatementcount" type="integer"/>
         <element label="BreakStatementCount" max_length="40" name="breakstatementcount" type="integer"/>
         <element label="BusinessRules" max_length="40" name="businessrules" type="integer"/>
+        <element label="Package checksum" max_length="40" name="checksum" type="integer"/>
         <element label="ClientScripts" max_length="40" name="clientscripts" type="integer"/>
         <element label="CodedTestRatio" max_length="20" name="codedtestratio" type="decimal"/>
         <element label="CodelessTestRatio" max_length="20" name="codelesstestratio" type="decimal"/>
@@ -32,6 +33,7 @@
         <element label="GlobalLogic" max_length="40" name="globallogic" type="integer"/>
         <element label="GraphicalLogic" max_length="40" name="graphicallogic" type="integer"/>
         <element label="IfStatementCount" max_length="40" name="ifstatementcount" type="integer"/>
+        <element label="InboundEmailActions" max_length="40" name="inboundemailactions" type="integer"/>
         <element label="InboundEmailScript" max_length="40" name="inboundemailscript" type="integer"/>
         <element label="Instance" max_length="100" name="instance" type="url"/>
         <element label="IntegrationLogic" max_length="40" name="integrationlogic" type="integer"/>
@@ -42,10 +44,11 @@
         <element label="LogCallCount" max_length="40" name="logcallcount" type="integer"/>
         <element label="LogPercentage" max_length="20" name="logpercentage" type="decimal"/>
         <element label="LowCodeLogic" max_length="40" name="lowlogic" type="integer"/>
-        <element label="ModifiedFileCount" max_length="40" name="modifiedfilecount" type="integer"/>
-        <element label="ModifiedMethodCount" max_length="40" name="modifiedmethodcount" type="integer"/>
+        <element label="ManagedFileCount" max_length="40" name="modifiedfilecount" type="integer"/>
+        <element label="ManagedMethodCount" max_length="40" name="modifiedmethodcount" type="integer"/>
         <element label="NoCommentFileCount" max_length="40" name="nocommentfilecount" type="integer"/>
         <element label="NoCodeLogic" max_length="40" name="nologic" type="integer"/>
+        <element label="Notifications" max_length="40" name="notifications" type="integer"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="ActiveCodelessTestSteps" max_length="40" name="numberofactivecodelessteststeps" type="integer"/>
         <element label="ActiveScriptedTestSteps" max_length="40" name="numberofactivescriptedteststeps" type="integer"/>
@@ -55,6 +58,7 @@
         <element label="Package query" max_length="1000" name="package_query" type="string"/>
         <element label="PortalLogic" max_length="40" name="portallogic" type="integer"/>
         <element label="Processors" max_length="40" name="processors" type="integer"/>
+        <element label="Progress %" max_length="40" name="progress" type="percent_complete"/>
         <element label="ProCodeLogic" max_length="40" name="prologic" type="integer"/>
         <element label="Relationships" max_length="40" name="relationships" type="integer"/>
         <element label="ReturnStatementCount" max_length="40" name="returnstatementcount" type="integer"/>
@@ -69,6 +73,14 @@
         <element hint="The total number of nodes in the abstract syntax trees of all scripts. A measure of scale and complexity." label="ScriptSize" max_length="40" name="scriptsize" type="integer"/>
         <element label="ScriptTestPercentage" max_length="20" name="scripttestpercentage" type="decimal"/>
         <element label="Started" max_length="40" name="started" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="Running" label="Status" max_length="40" name="status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Running" sequence="0" value="Running"/>
+                <element inactive_on_update="false" label="Pass" sequence="1" value="Pass"/>
+                <element inactive_on_update="false" label="Fail" sequence="2" value="Fail"/>
+                <element inactive_on_update="false" label="Error" sequence="3" value="Error"/>
+            </choice>
+        </element>
         <element label="SwitchStatementCount" max_length="40" name="switchstatementcount" type="integer"/>
         <element label="Test" max_length="40" name="test" type="integer"/>
         <element label="ThrowStatementCount" max_length="40" name="throwstatementcount" type="integer"/>

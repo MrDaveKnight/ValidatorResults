@@ -4,27 +4,27 @@
             <element>instance</element>
             <position>0</position>
             <sys_created_by>dave.knight</sys_created_by>
-            <sys_created_on>2018-09-27 15:51:52</sys_created_on>
-            <sys_id>3cc6b0f14f746700ea338e328110c74e</sys_id>
+            <sys_created_on>2018-10-30 02:01:00</sys_created_on>
+            <sys_id>23057f084f252300ea338e328110c752</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Execution" display_value="Execution" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">20c6b0f14f746700ea338e328110c718</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
-            <sys_updated_on>2018-09-27 15:51:52</sys_updated_on>
+            <sys_updated_on>2018-10-30 02:01:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>scan_duration</element>
+            <element>checksum</element>
             <position>1</position>
             <sys_created_by>dave.knight</sys_created_by>
-            <sys_created_on>2018-09-27 15:51:52</sys_created_on>
-            <sys_id>bcc6b0f14f746700ea338e328110c74e</sys_id>
+            <sys_created_on>2018-10-30 02:01:00</sys_created_on>
+            <sys_id>a3057f084f252300ea338e328110c752</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Execution" display_value="Execution" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">20c6b0f14f746700ea338e328110c718</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
-            <sys_updated_on>2018-09-27 15:51:52</sys_updated_on>
+            <sys_updated_on>2018-10-30 02:01:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,69 +32,97 @@
             <element>package_query</element>
             <position>2</position>
             <sys_created_by>dave.knight</sys_created_by>
-            <sys_created_on>2018-09-27 15:51:52</sys_created_on>
-            <sys_id>30c6b0f14f746700ea338e328110c74f</sys_id>
+            <sys_created_on>2018-10-30 02:01:00</sys_created_on>
+            <sys_id>27057f084f252300ea338e328110c752</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Execution" display_value="Execution" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">20c6b0f14f746700ea338e328110c718</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
-            <sys_updated_on>2018-09-27 15:51:52</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>3</position>
-            <sys_created_by>dave.knight</sys_created_by>
-            <sys_created_on>2018-09-27 15:51:52</sys_created_on>
-            <sys_id>b0c6b0f14f746700ea338e328110c74f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Execution" display_value="Execution" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">20c6b0f14f746700ea338e328110c718</sys_ui_section>
-            <sys_updated_by>dave.knight</sys_updated_by>
-            <sys_updated_on>2018-09-27 15:51:52</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>started</element>
-            <position>4</position>
-            <sys_created_by>dave.knight</sys_created_by>
-            <sys_created_on>2018-09-27 15:51:52</sys_created_on>
-            <sys_id>34c6b0f14f746700ea338e328110c74f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Execution" display_value="Execution" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">20c6b0f14f746700ea338e328110c718</sys_ui_section>
-            <sys_updated_by>dave.knight</sys_updated_by>
-            <sys_updated_on>2018-09-27 15:51:52</sys_updated_on>
+            <sys_updated_on>2018-10-30 02:01:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>package_format</element>
-            <position>5</position>
+            <position>3</position>
             <sys_created_by>dave.knight</sys_created_by>
-            <sys_created_on>2018-09-27 15:51:52</sys_created_on>
-            <sys_id>b4c6b0f14f746700ea338e328110c74f</sys_id>
+            <sys_created_on>2018-10-30 02:01:00</sys_created_on>
+            <sys_id>a7057f084f252300ea338e328110c752</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Execution" display_value="Execution" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">20c6b0f14f746700ea338e328110c718</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
-            <sys_updated_on>2018-09-27 15:51:52</sys_updated_on>
+            <sys_updated_on>2018-10-30 02:01:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>dave.knight</sys_created_by>
+            <sys_created_on>2018-10-30 02:01:00</sys_created_on>
+            <sys_id>2b057f084f252300ea338e328110c752</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Execution" display_value="Execution" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">20c6b0f14f746700ea338e328110c718</sys_ui_section>
+            <sys_updated_by>dave.knight</sys_updated_by>
+            <sys_updated_on>2018-10-30 02:01:00</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>scan_duration</element>
+            <position>5</position>
+            <sys_created_by>dave.knight</sys_created_by>
+            <sys_created_on>2018-10-30 02:01:00</sys_created_on>
+            <sys_id>ab057f084f252300ea338e328110c752</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Execution" display_value="Execution" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">20c6b0f14f746700ea338e328110c718</sys_ui_section>
+            <sys_updated_by>dave.knight</sys_updated_by>
+            <sys_updated_on>2018-10-30 02:01:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>started</element>
+            <position>6</position>
+            <sys_created_by>dave.knight</sys_created_by>
+            <sys_created_on>2018-10-30 02:01:00</sys_created_on>
+            <sys_id>2f057f084f252300ea338e328110c752</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Execution" display_value="Execution" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">20c6b0f14f746700ea338e328110c718</sys_ui_section>
+            <sys_updated_by>dave.knight</sys_updated_by>
+            <sys_updated_on>2018-10-30 02:01:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>transmitted</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>dave.knight</sys_created_by>
-            <sys_created_on>2018-09-27 15:51:52</sys_created_on>
-            <sys_id>38c6b0f14f746700ea338e328110c74f</sys_id>
+            <sys_created_on>2018-10-30 02:01:00</sys_created_on>
+            <sys_id>af057f084f252300ea338e328110c752</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Execution" display_value="Execution" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">20c6b0f14f746700ea338e328110c718</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
-            <sys_updated_on>2018-09-27 15:51:52</sys_updated_on>
+            <sys_updated_on>2018-10-30 02:01:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>progress</element>
+            <position>8</position>
+            <sys_created_by>dave.knight</sys_created_by>
+            <sys_created_on>2018-10-30 02:01:00</sys_created_on>
+            <sys_id>23057f084f252300ea338e328110c753</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Execution" display_value="Execution" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">20c6b0f14f746700ea338e328110c718</sys_ui_section>
+            <sys_updated_by>dave.knight</sys_updated_by>
+            <sys_updated_on>2018-10-30 02:01:00</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
