@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Metrics" max_length="40" name="x_snc_dk_valid_res_metrics" type="collection">
+    <element label="Results" max_length="40" name="x_snc_dk_valid_res_metrics" type="collection">
         <element label="All counts" max_length="256000" name="all_counts" type="string"/>
         <element label="ATFTests" max_length="40" name="atftests" type="integer"/>
         <element label="ATFTestSteps" max_length="40" name="atfteststeps" type="integer"/>
+        <element label="Autorun" max_length="40" name="autorun" type="boolean"/>
         <element label="BlockStatementCount" max_length="40" name="blockstatementcount" type="integer"/>
         <element label="BreakStatementCount" max_length="40" name="breakstatementcount" type="integer"/>
         <element label="BusinessRules" max_length="40" name="businessrules" type="integer"/>
@@ -41,6 +42,7 @@
         <element label="LetStatementCount" max_length="40" name="letstatementcount" type="integer"/>
         <element hint="Number of Javascript statements, variable declarations, assignment expressions and function calls (not the number of printed lines)" label="LinesOfCode" max_length="40" name="linesofcode" type="integer"/>
         <element label="LinesOfTestCode" max_length="40" name="linesoftestcode" type="integer"/>
+        <element label="Local" max_length="40" name="local" type="boolean"/>
         <element label="LogCallCount" max_length="40" name="logcallcount" type="integer"/>
         <element label="LogPercentage" max_length="20" name="logpercentage" type="decimal"/>
         <element hint="&quot;Low code&quot; logic, e.g. scripted business rules or workflow activities" label="LowCodeLogic" max_length="40" name="lowlogic" type="integer"/>
@@ -73,12 +75,14 @@
         <element hint="The total number of nodes in the abstract syntax trees of all scripts. A measure of scale and complexity." label="ScriptSize" max_length="40" name="scriptsize" type="integer"/>
         <element label="ScriptTestPercentage" max_length="20" name="scripttestpercentage" type="decimal"/>
         <element label="Started" max_length="40" name="started" type="glide_date_time"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" default="Running" label="Status" max_length="40" name="status" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="Ready" label="Status" max_length="40" name="status" type="string">
             <choice>
-                <element inactive_on_update="false" label="Running" sequence="0" value="Running"/>
-                <element inactive_on_update="false" label="Pass" sequence="1" value="Pass"/>
-                <element inactive_on_update="false" label="Fail" sequence="2" value="Fail"/>
-                <element inactive_on_update="false" label="Error" sequence="3" value="Error"/>
+                <element inactive_on_update="false" label="Ready" sequence="0" value="Ready"/>
+                <element inactive_on_update="false" label="Initializing" sequence="1" value="Initializing"/>
+                <element inactive_on_update="false" label="Running" sequence="2" value="Running"/>
+                <element inactive_on_update="false" label="Pass" sequence="3" value="Pass"/>
+                <element inactive_on_update="false" label="Fail" sequence="4" value="Fail"/>
+                <element inactive_on_update="false" label="Error" sequence="5" value="Error"/>
             </choice>
         </element>
         <element label="SwitchStatementCount" max_length="40" name="switchstatementcount" type="integer"/>
@@ -88,6 +92,13 @@
         <element label="TotalLogic" max_length="40" name="totallogic" type="integer"/>
         <element label="Transmitted" max_length="40" name="transmitted" type="boolean"/>
         <element label="TryStatementCount" max_length="40" name="trystatementcount" type="integer"/>
+        <element choice="3" default="Packages" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Packages" sequence="0" value="Packages"/>
+                <element inactive_on_update="false" label="All App Files" sequence="1" value="AllAppFiles"/>
+                <element inactive_on_update="false" label="All Scripts" sequence="2" value="AllScripts"/>
+            </choice>
+        </element>
         <element label="UIMacros" max_length="40" name="uimacros" type="integer"/>
         <element label="UIPages" max_length="40" name="uipages" type="integer"/>
         <element label="UIScripts" max_length="40" name="uiscripts" type="integer"/>

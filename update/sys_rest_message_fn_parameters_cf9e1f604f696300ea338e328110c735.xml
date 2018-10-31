@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>central_datastore</name>
+        <rest_message_function display_value="Post result record">52bbdbec4f296300ea338e328110c781</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>dave.knight</sys_created_by>
+        <sys_created_on>2018-10-31 13:39:53</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>cf9e1f604f696300ea338e328110c735</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>central_datastore</sys_name>
+        <sys_package display_value="Validator Results" source="x_snc_dk_valid_res">1d3708654ff82700ea338e328110c7c9</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Validator Results">1d3708654ff82700ea338e328110c7c9</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_cf9e1f604f696300ea338e328110c735</sys_update_name>
+        <sys_updated_by>dave.knight</sys_updated_by>
+        <sys_updated_on>2018-10-31 13:52:09</sys_updated_on>
+        <type>string</type>
+        <value>https://dknigsc1.service-now.com</value>
+    </sys_rest_message_fn_parameters>
+</record_update>

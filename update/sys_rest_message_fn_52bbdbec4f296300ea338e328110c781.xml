@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content>{transmitted:true,businessrules:10,description:"Test transmission 3"}</content>
+        <function_name>Post result record</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>Central Repository [ Post result record ]</qualified_name>
+        <rest_endpoint>${central_datastore}/api/now/table/x_snc_dk_valid_res_metrics</rest_endpoint>
+        <rest_message display_value="Central Repository">a5d91bac4f296300ea338e328110c726</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>dave.knight</sys_created_by>
+        <sys_created_on>2018-10-31 13:27:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>52bbdbec4f296300ea338e328110c781</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Post result record</sys_name>
+        <sys_package display_value="Validator Results" source="x_snc_dk_valid_res">1d3708654ff82700ea338e328110c7c9</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Validator Results">1d3708654ff82700ea338e328110c7c9</sys_scope>
+        <sys_update_name>sys_rest_message_fn_52bbdbec4f296300ea338e328110c781</sys_update_name>
+        <sys_updated_by>dave.knight</sys_updated_by>
+        <sys_updated_on>2018-10-31 15:19:24</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

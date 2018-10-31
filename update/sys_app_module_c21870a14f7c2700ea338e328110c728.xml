@@ -14,7 +14,7 @@
         <mobile_title>Properties</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name/>
-        <order>40.7</order>
+        <order>40</order>
         <override_menu_roles>false</override_menu_roles>
         <query>system_properties_ui.do?sysparm_title=Validator%20Properties&amp;sysparm_category=Validator</query>
         <report/>
@@ -28,7 +28,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c21870a14f7c2700ea338e328110c728</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Properties</sys_name>
         <sys_overrides/>
         <sys_package display_value="Validator Results" source="x_snc_dk_valid_res">1d3708654ff82700ea338e328110c7c9</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Validator Results">1d3708654ff82700ea338e328110c7c9</sys_scope>
         <sys_update_name>sys_app_module_c21870a14f7c2700ea338e328110c728</sys_update_name>
         <sys_updated_by>dave.knight</sys_updated_by>
-        <sys_updated_on>2018-09-26 21:20:36</sys_updated_on>
+        <sys_updated_on>2018-10-30 17:42:36</sys_updated_on>
         <timeline_page/>
         <title>Properties</title>
         <uncancelable>false</uncancelable>

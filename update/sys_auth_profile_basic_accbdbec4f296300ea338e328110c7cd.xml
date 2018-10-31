@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_auth_profile_basic">
+    <sys_auth_profile_basic action="INSERT_OR_UPDATE">
+        <name>Validator</name>
+        <password>YHmt+0IPeJHXX+xp6IV3Hw==</password>
+        <sys_class_name>sys_auth_profile_basic</sys_class_name>
+        <sys_created_by>dave.knight</sys_created_by>
+        <sys_created_on>2018-10-31 13:32:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>accbdbec4f296300ea338e328110c7cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validator</sys_name>
+        <sys_package display_value="Validator Results" source="x_snc_dk_valid_res">1d3708654ff82700ea338e328110c7c9</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Validator Results">1d3708654ff82700ea338e328110c7c9</sys_scope>
+        <sys_update_name>sys_auth_profile_basic_accbdbec4f296300ea338e328110c7cd</sys_update_name>
+        <sys_updated_by>dave.knight</sys_updated_by>
+        <sys_updated_on>2018-10-31 13:32:30</sys_updated_on>
+        <username>access.x_snc_dk_valid_res</username>
+    </sys_auth_profile_basic>
+</record_update>
