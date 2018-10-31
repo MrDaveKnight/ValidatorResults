@@ -42,7 +42,7 @@
         <element label="LetStatementCount" max_length="40" name="letstatementcount" type="integer"/>
         <element hint="Number of Javascript statements, variable declarations, assignment expressions and function calls (not the number of printed lines)" label="LinesOfCode" max_length="40" name="linesofcode" type="integer"/>
         <element label="LinesOfTestCode" max_length="40" name="linesoftestcode" type="integer"/>
-        <element label="Local" max_length="40" name="local" type="boolean"/>
+        <element default="true" label="Local" max_length="40" name="local" type="boolean"/>
         <element label="LogCallCount" max_length="40" name="logcallcount" type="integer"/>
         <element label="LogPercentage" max_length="20" name="logpercentage" type="decimal"/>
         <element hint="&quot;Low code&quot; logic, e.g. scripted business rules or workflow activities" label="LowCodeLogic" max_length="40" name="lowlogic" type="integer"/>
