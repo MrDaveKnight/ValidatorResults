@@ -16,7 +16,6 @@
         <element label="DebugCallCount" max_length="40" name="debugcallcount" type="integer"/>
         <element label="DebuggerStatementCount" max_length="40" name="debuggerstatementcount" type="integer"/>
         <element label="DebugPercentage" max_length="20" name="debugpercentage" type="decimal"/>
-        <element label="Description" max_length="1000" name="description" type="string"/>
         <element label="Dictionary" max_length="40" name="dictionary" type="integer"/>
         <element label="DictionaryOverrides" max_length="40" name="dictionaryoverrides" type="integer"/>
         <element label="DiscoveryLogic" max_length="40" name="discoverylogic" type="integer"/>
@@ -64,6 +63,7 @@
         <element hint="Advanced UI or business logic, a.k.a. &quot;Pro Code&quot;, e.g. Script Includes, UI Macros, Portal Widgets or REST APIs" label="ProCodeLogic" max_length="40" name="prologic" type="integer"/>
         <element label="Relationships" max_length="40" name="relationships" type="integer"/>
         <element label="ReturnStatementCount" max_length="40" name="returnstatementcount" type="integer"/>
+        <element default="Please describe the validation run" label="Run description" max_length="1000" name="run_description" type="string"/>
         <element label="Scan duration" max_length="40" name="scan_duration" type="glide_duration"/>
         <element label="ScheduledJobs" max_length="40" name="scheduledjobs" type="integer"/>
         <element label="SchemaConfig" max_length="40" name="schemaconfig" type="integer"/>

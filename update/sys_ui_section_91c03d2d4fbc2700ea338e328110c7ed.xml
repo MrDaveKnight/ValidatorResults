@@ -84,6 +84,20 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>run_description</element>
+            <position>6</position>
+            <sys_created_by>dave.knight</sys_created_by>
+            <sys_created_on>2018-10-31 17:12:29</sys_created_on>
+            <sys_id>114f80384fe96300ea338e328110c78d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">91c03d2d4fbc2700ea338e328110c7ed</sys_ui_section>
+            <sys_updated_by>dave.knight</sys_updated_by>
+            <sys_updated_on>2018-10-31 17:12:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>
