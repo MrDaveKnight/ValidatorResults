@@ -39,6 +39,10 @@
         <element label="IntegrationLogic" max_length="40" name="integrationlogic" type="integer"/>
         <element label="LabeledStatementCount" max_length="40" name="labeledstatementcount" type="integer"/>
         <element label="LetStatementCount" max_length="40" name="letstatementcount" type="integer"/>
+        <element label="LibCommentPercentage" max_length="20" name="libcommentpercentage" type="decimal"/>
+        <element label="LibDebugPercentage" max_length="20" name="libdebugpercentage" type="decimal"/>
+        <element label="LibExceptionPercentage" max_length="20" name="libexceptionpercentage" type="decimal"/>
+        <element label="LibLogPercentage" max_length="20" name="liblogpercentage" type="decimal"/>
         <element hint="Number of Javascript statements, variable declarations, assignment expressions and function calls (not the number of printed lines)" label="LinesOfCode" max_length="40" name="linesofcode" type="integer"/>
         <element label="LinesOfTestCode" max_length="40" name="linesoftestcode" type="integer"/>
         <element default="true" label="Local" max_length="40" name="local" type="boolean"/>
@@ -69,6 +73,7 @@
         <element label="SchemaConfig" max_length="40" name="schemaconfig" type="integer"/>
         <element label="ScopedConfig" max_length="40" name="scopedconfig" type="integer"/>
         <element label="ScopedLogic" max_length="40" name="scopedlogic" type="integer"/>
+        <element label="ScopedPackagingPercentage" max_length="20" name="scopedpackagingpercentage" type="decimal"/>
         <element label="ScriptActions" max_length="40" name="scriptactions" type="integer"/>
         <element label="ScriptedConfig" max_length="40" name="scriptedconfig" type="integer"/>
         <element label="ScriptIncludes" max_length="40" name="scriptincludes" type="integer"/>
