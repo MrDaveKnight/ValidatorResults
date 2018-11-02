@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Results" max_length="40" name="x_snc_dk_valid_res_metrics" type="collection">
         <element label="All counts" max_length="256000" name="all_counts" type="string"/>
+        <element label="All scripts" max_length="256000" name="all_scripts" type="string"/>
         <element label="ATFTests" max_length="40" name="atftests" type="integer"/>
         <element label="ATFTestSteps" max_length="40" name="atfteststeps" type="integer"/>
         <element label="Autorun" max_length="40" name="autorun" type="boolean"/>
@@ -28,6 +29,7 @@
         <element label="ForStatementCount" max_length="40" name="forstatementcount" type="integer"/>
         <element label="FunctionDeclarationCount" max_length="40" name="functiondeclarationcount" type="integer"/>
         <element label="FunctionExpressionCount" max_length="40" name="functionexpressioncount" type="integer"/>
+        <element label="GlobalBusinessRules" max_length="40" name="globalbusinessrules" type="integer"/>
         <element label="GlobalConfig" max_length="40" name="globalconfig" type="integer"/>
         <element label="GlobalLogCallCount" max_length="40" name="globallogcallcount" type="integer"/>
         <element label="GlobalLogic" max_length="40" name="globallogic" type="integer"/>
@@ -39,16 +41,20 @@
         <element label="IntegrationLogic" max_length="40" name="integrationlogic" type="integer"/>
         <element label="LabeledStatementCount" max_length="40" name="labeledstatementcount" type="integer"/>
         <element label="LetStatementCount" max_length="40" name="letstatementcount" type="integer"/>
-        <element label="LibCommentPercentage" max_length="20" name="libcommentpercentage" type="decimal"/>
-        <element label="LibDebugPercentage" max_length="20" name="libdebugpercentage" type="decimal"/>
-        <element label="LibExceptionPercentage" max_length="20" name="libexceptionpercentage" type="decimal"/>
-        <element label="LibLogPercentage" max_length="20" name="liblogpercentage" type="decimal"/>
+        <element label="LibCommentPct" max_length="20" name="libcommentpercentage" type="decimal"/>
+        <element label="LibDebugPct" max_length="20" name="libdebugpercentage" type="decimal"/>
+        <element label="LibExceptionPct" max_length="20" name="libexceptionpercentage" type="decimal"/>
+        <element label="LibLogPct" max_length="20" name="liblogpercentage" type="decimal"/>
         <element hint="Number of Javascript statements, variable declarations, assignment expressions and function calls (not the number of printed lines)" label="LinesOfCode" max_length="40" name="linesofcode" type="integer"/>
         <element label="LinesOfTestCode" max_length="40" name="linesoftestcode" type="integer"/>
         <element default="true" label="Local" max_length="40" name="local" type="boolean"/>
         <element label="LogCallCount" max_length="40" name="logcallcount" type="integer"/>
         <element label="LogPercentage" max_length="20" name="logpercentage" type="decimal"/>
+        <element label="LowCommentPct" max_length="15" name="lowcommentpct" type="decimal"/>
+        <element label="LowDebugPct" max_length="15" name="lowdebugpct" type="decimal"/>
+        <element label="LowExceptionPct" max_length="15" name="lowexceptionpct" type="decimal"/>
         <element hint="&quot;Low code&quot; logic, e.g. scripted business rules or workflow activities" label="LowCodeLogic" max_length="40" name="lowlogic" type="integer"/>
+        <element label="LowLogPct" max_length="15" name="lowlogpct" type="decimal"/>
         <element label="ManagedFileCount" max_length="40" name="modifiedfilecount" type="integer"/>
         <element label="ManagedMethodCount" max_length="40" name="modifiedmethodcount" type="integer"/>
         <element label="NoCommentFileCount" max_length="40" name="nocommentfilecount" type="integer"/>
@@ -63,8 +69,12 @@
         <element label="Package query" max_length="1000" name="package_query" type="string"/>
         <element label="PortalLogic" max_length="40" name="portallogic" type="integer"/>
         <element label="Processors" max_length="40" name="processors" type="integer"/>
+        <element label="ProCommentPct" max_length="15" name="procommentpct" type="decimal"/>
+        <element label="ProDebugPct" max_length="15" name="prodebugpct" type="decimal"/>
+        <element label="ProExceptionPct" max_length="15" name="proexceptionpct" type="decimal"/>
         <element label="Progress %" max_length="40" name="progress" type="percent_complete"/>
         <element hint="Advanced UI or business logic, a.k.a. &quot;Pro Code&quot;, e.g. Script Includes, UI Macros, Portal Widgets or REST APIs" label="ProCodeLogic" max_length="40" name="prologic" type="integer"/>
+        <element label="ProLogPct" max_length="15" name="prologpct" type="decimal"/>
         <element label="Relationships" max_length="40" name="relationships" type="integer"/>
         <element label="ReturnStatementCount" max_length="40" name="returnstatementcount" type="integer"/>
         <element default="Please describe the validation run" label="Run description" max_length="1000" name="run_description" type="string"/>
@@ -73,7 +83,7 @@
         <element label="SchemaConfig" max_length="40" name="schemaconfig" type="integer"/>
         <element label="ScopedConfig" max_length="40" name="scopedconfig" type="integer"/>
         <element label="ScopedLogic" max_length="40" name="scopedlogic" type="integer"/>
-        <element label="ScopedPackagingPercentage" max_length="20" name="scopedpackagingpercentage" type="decimal"/>
+        <element label="ScopedPackagingPct" max_length="20" name="scopedpackagingpercentage" type="decimal"/>
         <element label="ScriptActions" max_length="40" name="scriptactions" type="integer"/>
         <element label="ScriptedConfig" max_length="40" name="scriptedconfig" type="integer"/>
         <element label="ScriptIncludes" max_length="40" name="scriptincludes" type="integer"/>

@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="libdebugpercentage" label="LibDebugPercentage" language="en" table="x_snc_dk_valid_res_metrics">
+    <sys_documentation element="libdebugpercentage" label="LibDebugPct" language="en" table="x_snc_dk_valid_res_metrics">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>libdebugpercentage</element>
             <help/>
             <hint/>
-            <label>LibDebugPercentage</label>
+            <label>LibDebugPct</label>
             <language>en</language>
             <name>x_snc_dk_valid_res_metrics</name>
-            <plural>LibDebugPercentages</plural>
+            <plural>LibDebugPct</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>dave.knight</sys_created_by>
             <sys_created_on>2018-11-01 01:31:40</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_id>e5818ef04f21a300ea338e328110c750</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>LibDebugPercentage</sys_name>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>LibDebugPct</sys_name>
             <sys_package display_value="Validator Results" source="x_snc_dk_valid_res">1d3708654ff82700ea338e328110c7c9</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Validator Results">1d3708654ff82700ea338e328110c7c9</sys_scope>
             <sys_update_name>sys_documentation_x_snc_dk_valid_res_metrics_libdebugpercentage_en</sys_update_name>
             <sys_updated_by>dave.knight</sys_updated_by>
-            <sys_updated_on>2018-11-01 01:31:40</sys_updated_on>
+            <sys_updated_on>2018-11-01 20:15:34</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
