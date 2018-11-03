@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="forofstatementcount" label="ForOfStatementCount" language="en" table="x_snc_dk_valid_res_metrics">
+    <sys_documentation element="forofstatementcount" label="ForOfStatements" language="en" table="x_snc_dk_valid_res_metrics">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>forofstatementcount</element>
             <help/>
             <hint/>
-            <label>ForOfStatementCount</label>
+            <label>ForOfStatements</label>
             <language>en</language>
             <name>x_snc_dk_valid_res_metrics</name>
-            <plural>ForOfStatementCounts</plural>
+            <plural>ForOfStatements</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>dave.knight</sys_created_by>
             <sys_created_on>2018-09-26 18:15:05</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
             <sys_id>f8fd48e94ff82700ea338e328110c781</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_name>ForOfStatementCount</sys_name>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>ForOfStatements</sys_name>
             <sys_package display_value="Validator Results" source="x_snc_dk_valid_res">1d3708654ff82700ea338e328110c7c9</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Validator Results">1d3708654ff82700ea338e328110c7c9</sys_scope>
             <sys_update_name>sys_documentation_x_snc_dk_valid_res_metrics_forofstatementcount_en</sys_update_name>
             <sys_updated_by>dave.knight</sys_updated_by>
-            <sys_updated_on>2018-09-26 18:24:26</sys_updated_on>
+            <sys_updated_on>2018-11-03 15:06:29</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

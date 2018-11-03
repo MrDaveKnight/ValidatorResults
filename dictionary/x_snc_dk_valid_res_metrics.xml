@@ -2,67 +2,67 @@
     <element label="Results" max_length="40" name="x_snc_dk_valid_res_metrics" type="collection">
         <element label="All counts" max_length="256000" name="all_counts" type="string"/>
         <element label="All scripts" max_length="256000" name="all_scripts" type="string"/>
-        <element label="ATFTests" max_length="40" name="atftests" type="integer"/>
-        <element label="ATFTestSteps" max_length="40" name="atfteststeps" type="integer"/>
+        <element hint="Count of all active ATF test records" label="ActiveTests" max_length="40" name="atftests" type="integer"/>
+        <element hint="Count of all ATF test steps, both active and inactive" label="TestSteps" max_length="40" name="atfteststeps" type="integer"/>
         <element label="Autorun" max_length="40" name="autorun" type="boolean"/>
-        <element label="BlockStatementCount" max_length="40" name="blockstatementcount" type="integer"/>
-        <element label="BreakStatementCount" max_length="40" name="breakstatementcount" type="integer"/>
+        <element label="BlockStatements" max_length="40" name="blockstatementcount" type="integer"/>
+        <element label="BreakStatements" max_length="40" name="breakstatementcount" type="integer"/>
         <element label="BusinessRules" max_length="40" name="businessrules" type="integer"/>
         <element label="Package checksum" max_length="40" name="checksum" type="integer"/>
         <element label="ClientScripts" max_length="40" name="clientscripts" type="integer"/>
-        <element label="CodedTestRatio" max_length="20" name="codedtestratio" type="decimal"/>
-        <element label="CodelessTestRatio" max_length="20" name="codelesstestratio" type="decimal"/>
+        <element hint="A White-box Testing Metric - The total lines of scripted ATF test script divided by the total lines of library script (Script Includes and global Business Rules)" label="ScriptedTestRatio" max_length="20" name="codedtestratio" type="decimal"/>
+        <element hint="A Black-box Testing Metric - The total number of non-scripted ATF test steps divided by the total number of logic records, excluding scripted library logic records (Script Includes and global Business Rules, which should be White-box tested). Reference the embedded help in the sidebar for a definition of logic records" label="CodelessTestRatio" max_length="20" name="codelesstestratio" type="decimal"/>
         <element label="CommentPercentage" max_length="20" name="commentpercentage" type="decimal"/>
-        <element label="ContinueStatementCount" max_length="40" name="continuestatementcount" type="integer"/>
-        <element label="DebugCallCount" max_length="40" name="debugcallcount" type="integer"/>
-        <element label="DebuggerStatementCount" max_length="40" name="debuggerstatementcount" type="integer"/>
+        <element label="ContinueStatements" max_length="40" name="continuestatementcount" type="integer"/>
+        <element hint="High numbers here are GOOD! These are GlideSystem or GSLog debug messages. The can be filtered out on production systems, but enabled when debugging is necessary (like at upgrade test time)" label="DebugCalls" max_length="40" name="debugcallcount" type="integer"/>
+        <element label="DebuggerStatements" max_length="40" name="debuggerstatementcount" type="integer"/>
         <element label="DebugPercentage" max_length="20" name="debugpercentage" type="decimal"/>
         <element label="Dictionary" max_length="40" name="dictionary" type="integer"/>
         <element label="DictionaryOverrides" max_length="40" name="dictionaryoverrides" type="integer"/>
         <element label="DiscoveryLogic" max_length="40" name="discoverylogic" type="integer"/>
-        <element label="DoWhileStatementCount" max_length="40" name="dowhilestatementcount" type="integer"/>
+        <element label="DoWhileStatements" max_length="40" name="dowhilestatementcount" type="integer"/>
         <element label="DynamicFilters" max_length="40" name="dynamicfilters" type="integer"/>
         <element label="ExceptionPercentage" max_length="20" name="exceptionpercentage" type="decimal"/>
-        <element label="ExpressionStatementCount" max_length="40" name="expressionstatementcount" type="integer"/>
+        <element label="ExpressionStatements" max_length="40" name="expressionstatementcount" type="integer"/>
         <element label="FixScripts" max_length="40" name="fixscripts" type="integer"/>
-        <element label="ForOfStatementCount" max_length="40" name="forofstatementcount" type="integer"/>
-        <element label="ForStatementCount" max_length="40" name="forstatementcount" type="integer"/>
-        <element label="FunctionDeclarationCount" max_length="40" name="functiondeclarationcount" type="integer"/>
-        <element label="FunctionExpressionCount" max_length="40" name="functionexpressioncount" type="integer"/>
+        <element label="ForOfStatements" max_length="40" name="forofstatementcount" type="integer"/>
+        <element label="ForStatements" max_length="40" name="forstatementcount" type="integer"/>
+        <element label="FunctionDeclarations" max_length="40" name="functiondeclarationcount" type="integer"/>
+        <element label="FunctionExpressions" max_length="40" name="functionexpressioncount" type="integer"/>
         <element label="GlobalBusinessRules" max_length="40" name="globalbusinessrules" type="integer"/>
         <element label="GlobalConfig" max_length="40" name="globalconfig" type="integer"/>
-        <element label="GlobalLogCallCount" max_length="40" name="globallogcallcount" type="integer"/>
+        <element hint="A number other than 0 is BAD! These are calls to the old gs.log() method. This can't be filtered in production logs" label="GlobalLogCalls" max_length="40" name="globallogcalls" type="integer"/>
         <element label="GlobalLogic" max_length="40" name="globallogic" type="integer"/>
         <element hint="Graphical workflow activities, and flow designer (a.k.a. integration hub) steps" label="WorkflowLogic" max_length="40" name="graphicallogic" type="integer"/>
-        <element label="IfStatementCount" max_length="40" name="ifstatementcount" type="integer"/>
+        <element label="IfStatements" max_length="40" name="ifstatementcount" type="integer"/>
         <element label="InboundEmailActions" max_length="40" name="inboundemailactions" type="integer"/>
         <element label="InboundEmailScript" max_length="40" name="inboundemailscript" type="integer"/>
         <element label="Instance" max_length="100" name="instance" type="url"/>
         <element label="IntegrationLogic" max_length="40" name="integrationlogic" type="integer"/>
-        <element label="LabeledStatementCount" max_length="40" name="labeledstatementcount" type="integer"/>
-        <element label="LetStatementCount" max_length="40" name="letstatementcount" type="integer"/>
+        <element label="LabeledStatements" max_length="40" name="labeledstatementcount" type="integer"/>
+        <element label="LetStatements" max_length="40" name="letstatementcount" type="integer"/>
         <element label="LibCommentPct" max_length="20" name="libcommentpercentage" type="decimal"/>
         <element label="LibDebugPct" max_length="20" name="libdebugpercentage" type="decimal"/>
         <element label="LibExceptionPct" max_length="20" name="libexceptionpercentage" type="decimal"/>
         <element label="LibLogPct" max_length="20" name="liblogpercentage" type="decimal"/>
-        <element hint="Number of Javascript statements, variable declarations, assignment expressions and function calls (not the number of printed lines)" label="LinesOfCode" max_length="40" name="linesofcode" type="integer"/>
+        <element hint="Total number of Javascript lines of code managed by the accelerator - statements, variable and function declarations, assignment expressions and function calls (not the number of printed lines) managed by the accelerator (in a new or modified scripted application file)" label="LinesOfCode" max_length="40" name="linesofcode" type="integer"/>
         <element label="LinesOfTestCode" max_length="40" name="linesoftestcode" type="integer"/>
         <element default="true" label="Local" max_length="40" name="local" type="boolean"/>
-        <element label="LogCallCount" max_length="40" name="logcallcount" type="integer"/>
+        <element hint="High numbers here are GOOD! These are GlideSystem or GSLog info|warn|error messages. Filtering can be configured on production systems " label="LogCalls" max_length="40" name="logcallcount" type="integer"/>
         <element label="LogPercentage" max_length="20" name="logpercentage" type="decimal"/>
         <element label="LowCommentPct" max_length="15" name="lowcommentpct" type="decimal"/>
         <element label="LowDebugPct" max_length="15" name="lowdebugpct" type="decimal"/>
         <element label="LowExceptionPct" max_length="15" name="lowexceptionpct" type="decimal"/>
         <element hint="&quot;Low code&quot; logic, e.g. scripted business rules or workflow activities" label="LowCodeLogic" max_length="40" name="lowlogic" type="integer"/>
         <element label="LowLogPct" max_length="15" name="lowlogpct" type="decimal"/>
-        <element label="ManagedFileCount" max_length="40" name="modifiedfilecount" type="integer"/>
-        <element label="ManagedMethodCount" max_length="40" name="modifiedmethodcount" type="integer"/>
-        <element label="NoCommentFileCount" max_length="40" name="nocommentfilecount" type="integer"/>
+        <element hint="Total number of logic and config records (typically but not exclusively application files) managed by the package being validated, i.e. created or updated records" label="FileCount" max_length="40" name="modifiedfilecount" type="integer"/>
+        <element hint="Total number of scripted library functions managed by the package being valided. These functions are contained in library logic records (Script Includes and global Business Rules) that have been created or updated in the package" label="MethodCount" max_length="40" name="modifiedmethodcount" type="integer"/>
+        <element label="NoCommentFiles" max_length="40" name="nocommentfilecount" type="integer"/>
         <element hint="Declarative &quot;No Code&quot; logic, e.g. data lookup definitions or &quot;scriptless&quot; workflow activities and business rules" label="NoCodeLogic" max_length="40" name="nologic" type="integer"/>
         <element label="Notifications" max_length="40" name="notifications" type="integer"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="ActiveCodelessTestSteps" max_length="40" name="numberofactivecodelessteststeps" type="integer"/>
-        <element label="ActiveScriptedTestSteps" max_length="40" name="numberofactivescriptedteststeps" type="integer"/>
+        <element hint="Count of all active codeless ATF test steps" label="ActiveCodelessSteps" max_length="40" name="numberofactivecodelessteststeps" type="integer"/>
+        <element hint="Count of all active scripted ATF test steps" label="ActiveScriptedSteps" max_length="40" name="numberofactivescriptedteststeps" type="integer"/>
         <element label="NumberOfScriptsTested" max_length="40" name="numberofscriptstested" type="integer"/>
         <element label="OutboundEmailScript" max_length="40" name="outboundemailscript" type="integer"/>
         <element label="Package format" max_length="40" name="package_format" type="string"/>
@@ -76,37 +76,35 @@
         <element hint="Advanced UI or business logic, a.k.a. &quot;Pro Code&quot;, e.g. Script Includes, UI Macros, Portal Widgets or REST APIs" label="ProCodeLogic" max_length="40" name="prologic" type="integer"/>
         <element label="ProLogPct" max_length="15" name="prologpct" type="decimal"/>
         <element label="Relationships" max_length="40" name="relationships" type="integer"/>
-        <element label="ReturnStatementCount" max_length="40" name="returnstatementcount" type="integer"/>
+        <element label="ReturnStatements" max_length="40" name="returnstatementcount" type="integer"/>
         <element default="Please describe the validation run" label="Run description" max_length="1000" name="run_description" type="string"/>
         <element label="Scan duration" max_length="40" name="scan_duration" type="glide_duration"/>
         <element label="ScheduledJobs" max_length="40" name="scheduledjobs" type="integer"/>
         <element label="SchemaConfig" max_length="40" name="schemaconfig" type="integer"/>
         <element label="ScopedConfig" max_length="40" name="scopedconfig" type="integer"/>
         <element label="ScopedLogic" max_length="40" name="scopedlogic" type="integer"/>
-        <element label="ScopedPackagingPct" max_length="20" name="scopedpackagingpercentage" type="decimal"/>
+        <element hint="The percentage of all logic and config records (typically, but not exclusively application files), ATF tests and steps excluded,  that are in a private scope" label="ScopedPackagingPct" max_length="20" name="scopedpackagingpercentage" type="decimal"/>
         <element label="ScriptActions" max_length="40" name="scriptactions" type="integer"/>
         <element label="ScriptedConfig" max_length="40" name="scriptedconfig" type="integer"/>
         <element label="ScriptIncludes" max_length="40" name="scriptincludes" type="integer"/>
         <element hint="The total number of nodes in the abstract syntax trees of all scripts. A measure of scale and complexity." label="ScriptSize" max_length="40" name="scriptsize" type="integer"/>
-        <element label="ScriptTestPercentage" max_length="20" name="scripttestpercentage" type="decimal"/>
+        <element hint="A White-box Testing Metric - The % of scripted library functions (in Script Includes and global Business Rules) tested by one more more scripted ATF test steps. " label="ScriptTestCoverage" max_length="20" name="scripttestpercentage" type="decimal"/>
         <element label="Started" max_length="40" name="started" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="Ready" label="Status" max_length="40" name="status" type="string">
             <choice>
                 <element inactive_on_update="false" label="Ready" sequence="0" value="Ready"/>
                 <element inactive_on_update="false" label="Initializing" sequence="1" value="Initializing"/>
                 <element inactive_on_update="false" label="Running" sequence="2" value="Running"/>
-                <element inactive_on_update="false" label="Pass" sequence="3" value="Pass"/>
-                <element inactive_on_update="false" label="Fail" sequence="4" value="Fail"/>
-                <element inactive_on_update="false" label="Error" sequence="5" value="Error"/>
+                <element inactive_on_update="false" label="Complete" sequence="3" value="Complete"/>
+                <element inactive_on_update="false" label="Error" sequence="4" value="Error"/>
             </choice>
         </element>
-        <element label="SwitchStatementCount" max_length="40" name="switchstatementcount" type="integer"/>
-        <element hint="ATF tests and test steps" label="Test" max_length="40" name="test" type="integer"/>
-        <element label="ThrowStatementCount" max_length="40" name="throwstatementcount" type="integer"/>
+        <element label="SwitchStatements" max_length="40" name="switchstatementcount" type="integer"/>
+        <element label="ThrowStatements" max_length="40" name="throwstatementcount" type="integer"/>
         <element label="TotalConfig" max_length="40" name="totalconfig" type="integer"/>
         <element label="TotalLogic" max_length="40" name="totallogic" type="integer"/>
         <element label="Transmitted" max_length="40" name="transmitted" type="boolean"/>
-        <element label="TryStatementCount" max_length="40" name="trystatementcount" type="integer"/>
+        <element label="TryStatements" max_length="40" name="trystatementcount" type="integer"/>
         <element choice="3" default="Packages" label="Type" max_length="40" name="type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Packages" sequence="0" value="Packages"/>
@@ -117,9 +115,15 @@
         <element label="UIMacros" max_length="40" name="uimacros" type="integer"/>
         <element label="UIPages" max_length="40" name="uipages" type="integer"/>
         <element label="UIScripts" max_length="40" name="uiscripts" type="integer"/>
-        <element label="VariableDeclaratorCount" max_length="40" name="variabledeclaratorcount" type="integer"/>
-        <element label="WhileStatementCount" max_length="40" name="whilestatementcount" type="integer"/>
-        <element label="WithStatementCount" max_length="40" name="withstatementcount" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Validation result" max_length="40" name="validation_result" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Pass" sequence="0" value="Pass"/>
+                <element inactive_on_update="false" label="Fail" sequence="1" value="Fail"/>
+            </choice>
+        </element>
+        <element label="VariableDeclarators" max_length="40" name="variabledeclaratorcount" type="integer"/>
+        <element label="WhileStatements" max_length="40" name="whilestatementcount" type="integer"/>
+        <element label="WithStatements" max_length="40" name="withstatementcount" type="integer"/>
         <element label="WorkflowActivities" max_length="40" name="workflowactivities" type="integer"/>
     </element>
 </database>

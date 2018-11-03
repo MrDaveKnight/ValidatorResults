@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="numberofactivecodelessteststeps" label="ActiveCodelessTestSteps" language="en" table="x_snc_dk_valid_res_metrics">
+    <sys_documentation element="numberofactivecodelessteststeps" label="ActiveCodelessSteps" language="en" table="x_snc_dk_valid_res_metrics">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>numberofactivecodelessteststeps</element>
             <help/>
-            <hint/>
-            <label>ActiveCodelessTestSteps</label>
+            <hint>Count of all active codeless ATF test steps</hint>
+            <label>ActiveCodelessSteps</label>
             <language>en</language>
             <name>x_snc_dk_valid_res_metrics</name>
-            <plural>ActiveCodelessTestSteps</plural>
+            <plural>ActiveCodelessSteps</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>dave.knight</sys_created_by>
             <sys_created_on>2018-09-26 18:05:51</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
             <sys_id>f9db00a94ff82700ea338e328110c7cf</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_name>ActiveCodelessTestSteps</sys_name>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>ActiveCodelessSteps</sys_name>
             <sys_package display_value="Validator Results" source="x_snc_dk_valid_res">1d3708654ff82700ea338e328110c7c9</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Validator Results">1d3708654ff82700ea338e328110c7c9</sys_scope>
             <sys_update_name>sys_documentation_x_snc_dk_valid_res_metrics_numberofactivecodelessteststeps_en</sys_update_name>
             <sys_updated_by>dave.knight</sys_updated_by>
-            <sys_updated_on>2018-10-14 04:29:11</sys_updated_on>
+            <sys_updated_on>2018-11-03 04:55:43</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

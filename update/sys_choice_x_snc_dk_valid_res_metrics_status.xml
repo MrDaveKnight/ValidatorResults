@@ -62,38 +62,19 @@
             <element>status</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Pass</label>
+            <label>Complete</label>
             <language>en</language>
             <name>x_snc_dk_valid_res_metrics</name>
             <sequence>3</sequence>
             <sys_created_by>dave.knight</sys_created_by>
-            <sys_created_on>2018-10-27 21:36:30</sys_created_on>
+            <sys_created_on>2018-11-02 21:19:57</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>bd5560ab4f15e740ea338e328110c796</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_id>291b5f954fa5e30056faac118110c7dc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>dave.knight</sys_updated_by>
-            <sys_updated_on>2018-10-30 22:07:12</sys_updated_on>
-            <value>Pass</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>status</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Fail</label>
-            <language>en</language>
-            <name>x_snc_dk_valid_res_metrics</name>
-            <sequence>4</sequence>
-            <sys_created_by>dave.knight</sys_created_by>
-            <sys_created_on>2018-10-27 21:36:30</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>7d5560ab4f15e740ea338e328110c797</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>dave.knight</sys_updated_by>
-            <sys_updated_on>2018-10-30 22:07:12</sys_updated_on>
-            <value>Fail</value>
+            <sys_updated_on>2018-11-02 21:19:57</sys_updated_on>
+            <value>Complete</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -103,15 +84,15 @@
             <label>Error</label>
             <language>en</language>
             <name>x_snc_dk_valid_res_metrics</name>
-            <sequence>5</sequence>
+            <sequence>4</sequence>
             <sys_created_by>dave.knight</sys_created_by>
             <sys_created_on>2018-10-27 21:37:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>1e95e0ab4f15e740ea338e328110c7b0</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_updated_by>dave.knight</sys_updated_by>
-            <sys_updated_on>2018-10-30 22:07:12</sys_updated_on>
+            <sys_updated_on>2018-11-02 21:19:57</sys_updated_on>
             <value>Error</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">

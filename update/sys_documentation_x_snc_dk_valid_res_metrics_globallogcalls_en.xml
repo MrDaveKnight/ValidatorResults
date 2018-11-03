@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="ifstatementcount" label="IfStatements" language="en" table="x_snc_dk_valid_res_metrics">
+    <sys_documentation element="globallogcalls" label="GlobalLogCalls" language="en" table="x_snc_dk_valid_res_metrics">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>ifstatementcount</element>
+            <element>globallogcalls</element>
             <help/>
-            <hint/>
-            <label>IfStatements</label>
+            <hint>A number other than 0 is BAD! These are calls to the old gs.log() method. This can't be filtered in production logs</hint>
+            <label>GlobalLogCalls</label>
             <language>en</language>
             <name>x_snc_dk_valid_res_metrics</name>
-            <plural>IfStatements</plural>
+            <plural>GlobalLogCalls</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>dave.knight</sys_created_by>
-            <sys_created_on>2018-09-26 18:09:06</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
-            <sys_id>159c48a94ff82700ea338e328110c70f</sys_id>
+            <sys_created_on>2018-11-03 15:17:49</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>eac15b6d4f21270056faac118110c7e1</sys_id>
             <sys_mod_count>1</sys_mod_count>
-            <sys_name>IfStatements</sys_name>
+            <sys_name>GlobalLogCalls</sys_name>
             <sys_package display_value="Validator Results" source="x_snc_dk_valid_res">1d3708654ff82700ea338e328110c7c9</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Validator Results">1d3708654ff82700ea338e328110c7c9</sys_scope>
-            <sys_update_name>sys_documentation_x_snc_dk_valid_res_metrics_ifstatementcount_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_snc_dk_valid_res_metrics_globallogcalls_en</sys_update_name>
             <sys_updated_by>dave.knight</sys_updated_by>
-            <sys_updated_on>2018-11-03 15:03:32</sys_updated_on>
+            <sys_updated_on>2018-11-03 15:18:52</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
