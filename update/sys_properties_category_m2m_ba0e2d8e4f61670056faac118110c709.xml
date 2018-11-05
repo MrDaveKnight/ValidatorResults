@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
     <sys_properties_category_m2m action="INSERT_OR_UPDATE">
         <category display_value="Validator">c3f1b8ad4f3c2700ea338e328110c79d</category>
-        <order>10</order>
-        <property display_value="x_snc_dk_valid_res.central_datastore.url" name="x_snc_dk_valid_res.central_datastore.url">9d3374ed4f3c2700ea338e328110c7aa</property>
+        <order>30</order>
+        <property display_value="x_snc_dk_valid_res.criteria.min.scripted_test_ratio" name="x_snc_dk_valid_res.criteria.min.scripted_test_ratio">6edc2d4e4f61670056faac118110c7ad</property>
         <sys_class_name>sys_properties_category_m2m</sys_class_name>
         <sys_created_by>dave.knight</sys_created_by>
-        <sys_created_on>2018-10-31 17:42:35</sys_created_on>
+        <sys_created_on>2018-11-04 21:18:58</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>1a2650fc4fe96300ea338e328110c758</sys_id>
+        <sys_id>ba0e2d8e4f61670056faac118110c709</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>x_snc_dk_valid_res.central_datastore.url.Validator</sys_name>
+        <sys_name>x_snc_dk_valid_res.criteria.min.scripted_test_ratio.Validator</sys_name>
         <sys_package display_value="Validator Results" source="x_snc_dk_valid_res">1d3708654ff82700ea338e328110c7c9</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Validator Results">1d3708654ff82700ea338e328110c7c9</sys_scope>
-        <sys_update_name>sys_properties_category_m2m_1a2650fc4fe96300ea338e328110c758</sys_update_name>
+        <sys_update_name>sys_properties_category_m2m_ba0e2d8e4f61670056faac118110c709</sys_update_name>
         <sys_updated_by>dave.knight</sys_updated_by>
-        <sys_updated_on>2018-11-05 15:36:27</sys_updated_on>
+        <sys_updated_on>2018-11-05 15:37:48</sys_updated_on>
     </sys_properties_category_m2m>
 </record_update>

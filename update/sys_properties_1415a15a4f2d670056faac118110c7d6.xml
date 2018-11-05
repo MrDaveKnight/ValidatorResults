@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Validation criterion for Library Logging : minimum percentage of operational logging in scripted library functions, the ratio of gs or GLSLog.info|warn|error statements over total lines of code</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_snc_dk_valid_res.criteria.min.defense.lib.log</name>
+        <read_roles/>
+        <suffix>criteria.min.defense.lib.log</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>dave.knight</sys_created_by>
+        <sys_created_on>2018-11-05 15:18:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1415a15a4f2d670056faac118110c7d6</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>x_snc_dk_valid_res.criteria.min.defense.lib.log</sys_name>
+        <sys_package display_value="Validator Results" source="x_snc_dk_valid_res">1d3708654ff82700ea338e328110c7c9</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Validator Results">1d3708654ff82700ea338e328110c7c9</sys_scope>
+        <sys_update_name>sys_properties_1415a15a4f2d670056faac118110c7d6</sys_update_name>
+        <sys_updated_by>dave.knight</sys_updated_by>
+        <sys_updated_on>2018-11-05 15:58:49</sys_updated_on>
+        <type>string</type>
+        <value>2</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=1415a15a4f2d670056faac118110c7d6"/>
+</record_update>

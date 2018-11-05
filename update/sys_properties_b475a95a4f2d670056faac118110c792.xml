@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Validation criterion for Library Comments - minimum percentage of comments in scripted library functions (Script Includes &amp; global Business Rules)</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_snc_dk_valid_res.criteria.min.defense.lib.comment</name>
+        <read_roles/>
+        <suffix>criteria.min.defense.lib.comment</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>dave.knight</sys_created_by>
+        <sys_created_on>2018-11-05 15:19:54</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b475a95a4f2d670056faac118110c792</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_snc_dk_valid_res.criteria.min.defense.lib.comment</sys_name>
+        <sys_package display_value="Validator Results" source="x_snc_dk_valid_res">1d3708654ff82700ea338e328110c7c9</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Validator Results">1d3708654ff82700ea338e328110c7c9</sys_scope>
+        <sys_update_name>sys_properties_b475a95a4f2d670056faac118110c792</sys_update_name>
+        <sys_updated_by>dave.knight</sys_updated_by>
+        <sys_updated_on>2018-11-05 15:57:24</sys_updated_on>
+        <type>string</type>
+        <value>10</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=b475a95a4f2d670056faac118110c792"/>
+</record_update>
