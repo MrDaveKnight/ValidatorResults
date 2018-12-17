@@ -37,6 +37,7 @@
         <element label="IfStatements" max_length="40" name="ifstatementcount" type="integer"/>
         <element label="InboundEmailActions" max_length="40" name="inboundemailactions" type="integer"/>
         <element label="InboundEmailScript" max_length="40" name="inboundemailscript" type="integer"/>
+        <element label="Inspect" max_length="40" name="inspect" type="boolean"/>
         <element label="Instance" max_length="100" name="instance" type="url"/>
         <element label="IntegrationLogic" max_length="40" name="integrationlogic" type="integer"/>
         <element label="LabeledStatements" max_length="40" name="labeledstatementcount" type="integer"/>
@@ -67,6 +68,11 @@
         <element label="OutboundEmailScript" max_length="40" name="outboundemailscript" type="integer"/>
         <element label="Package format" max_length="40" name="package_format" type="string"/>
         <element label="Package query" max_length="1000" name="package_query" type="string"/>
+        <element label="Pass" max_length="40" name="pass_1" type="boolean"/>
+        <element label="Pass" max_length="40" name="pass_2" type="boolean"/>
+        <element label="Pass 3" max_length="40" name="pass_3" type="boolean"/>
+        <element label="Pass 4" max_length="40" name="pass_4" type="boolean"/>
+        <element label="Pass 5" max_length="40" name="pass_5" type="boolean"/>
         <element label="PortalLogic" max_length="40" name="portallogic" type="integer"/>
         <element label="Processors" max_length="40" name="processors" type="integer"/>
         <element label="ProCommentPct" max_length="15" name="procommentpct" type="decimal"/>
@@ -89,6 +95,11 @@
         <element label="ScriptIncludes" max_length="40" name="scriptincludes" type="integer"/>
         <element hint="The total number of nodes in the abstract syntax trees of all scripts. A measure of scale and complexity." label="ScriptSize" max_length="40" name="scriptsize" type="integer"/>
         <element hint="A White-box Testing Metric - The % of scripted library functions (in Script Includes and global Business Rules) tested by one more more scripted ATF test steps. " label="ScriptTestCoverage" max_length="20" name="scripttestpercentage" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="Script" max_length="1024" name="script_1" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="Script" max_length="1024" name="script_2" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="Script 3" max_length="1024" name="script_3" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="Script 4" max_length="1024" name="script_4" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="Script 5" max_length="1024" name="script_5" type="url"/>
         <element label="Started" max_length="40" name="started" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="Ready" label="Status" max_length="40" name="status" type="string">
             <choice>
@@ -100,6 +111,11 @@
             </choice>
         </element>
         <element label="SwitchStatements" max_length="40" name="switchstatementcount" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Test 1" max_length="1024" name="test_1" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="Test 2" max_length="1024" name="test_2" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="Test 3" max_length="1024" name="test_3" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="Test 4" max_length="1024" name="test_4" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="Test 5" max_length="1024" name="test_5" type="url"/>
         <element label="ThrowStatements" max_length="40" name="throwstatementcount" type="integer"/>
         <element label="TotalConfig" max_length="40" name="totalconfig" type="integer"/>
         <element label="TotalLogic" max_length="40" name="totallogic" type="integer"/>

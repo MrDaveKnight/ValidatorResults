@@ -3,8 +3,11 @@
         <active>true</active>
         <category/>
         <content><![CDATA[<p>Terminology</p>
-<p>Logic Record - Also known as an &#34;Application File&#34;, a logic record extends platform capability with new functionality that processes user data. These records are executed by platform engines, and may contain both declarative logic (no-code configuration) and/or programatic logic (Javascript/HTML/CSS) i.e, anything with a script, a condition field for execution, conditional data manipulation, or branching logic (if, switch, while, for)</p>
-<p>Config Record - configures existing platform functionality. Predominately declarative, but may contain scripts for initialization</p>]]></content>
+<p>Logic Record - An &#34;Application File&#34; that defines application behavior, or extends platform capability with new functionality. These records are executed by platform engines, and may be both declarative (no-code/drag-n-drop) and/or programmatic (Javascript/HTML/CSS). I.e., anything with a script, a condition field for execution, conditional data manipulation, or branching logic (if, switch, while, for) that ultimately processes end user data</p>
+<p>Config Record - An &#34;Application File&#34; that defines data structures and relationships, or configures existing application logic or platform capability. These records are declarative, but may contain scripts for initialization</p>
+<p>Configuration vs Customization</p>
+<ul class="steps-unordered"><li class="li step">Configuration requires no code (properties, role based access controls, natural language flow design, graphical workflow, data lookup, etc)</li><li class="li step">Customization requires code (Javascript, HTML, CSS, AngularJS, Bootstrap, etc)</li></ul>
+<p>You &#34;configure&#34; with both declarative logic records and config records. You &#34;customize&#34; with programatic logic records, i.e. script</p>]]></content>
         <last_sync/>
         <modifier>normal</modifier>
         <name>x_snc_dk_valid_res_metrics-normal</name>
@@ -21,7 +24,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6f67cd214fe9e30056faac118110c741</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>x_snc_dk_valid_res_metrics-normal</sys_name>
         <sys_package display_value="Validator Results" source="x_snc_dk_valid_res">1d3708654ff82700ea338e328110c7c9</sys_package>
         <sys_policy/>
@@ -29,7 +32,7 @@
         <sys_scope display_value="Validator Results">1d3708654ff82700ea338e328110c7c9</sys_scope>
         <sys_update_name>sys_embedded_help_content_6f67cd214fe9e30056faac118110c741</sys_update_name>
         <sys_updated_by>dave.knight</sys_updated_by>
-        <sys_updated_on>2018-11-03 15:11:04</sys_updated_on>
+        <sys_updated_on>2018-11-30 06:30:25</sys_updated_on>
         <version>l</version>
     </sys_embedded_help_content>
     <sys_translated_text action="delete_multiple" query="documentkey=6f67cd214fe9e30056faac118110c741"/>
