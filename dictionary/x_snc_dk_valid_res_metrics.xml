@@ -12,7 +12,17 @@
         <element label="ClientScripts" max_length="40" name="clientscripts" type="integer"/>
         <element hint="A White-box Testing Metric - The total lines of scripted ATF test script divided by the total lines of library script (Script Includes and global Business Rules)" label="ScriptedTestRatio" max_length="20" name="codedtestratio" type="decimal"/>
         <element hint="A Black-box Testing Metric - The total number of non-scripted ATF test steps divided by the total number of logic records, excluding scripted library logic records (Script Includes and global Business Rules, which should be White-box tested). Reference the embedded help in the sidebar for a definition of logic records" label="CodelessTestRatio" max_length="20" name="codelesstestratio" type="decimal"/>
+        <element label="Script" max_length="1024" name="commented_1" type="url"/>
+        <element label="Script" max_length="1024" name="commented_2" type="url"/>
+        <element label="Script" max_length="1024" name="commented_3" type="url"/>
+        <element label="Script" max_length="1024" name="commented_4" type="url"/>
+        <element label="Script" max_length="1024" name="commented_5" type="url"/>
         <element label="CommentPercentage" max_length="20" name="commentpercentage" type="decimal"/>
+        <element label="Pass" max_length="40" name="comment_pass_1" type="boolean"/>
+        <element label="Pass" max_length="40" name="comment_pass_2" type="boolean"/>
+        <element label="Pass" max_length="40" name="comment_pass_3" type="boolean"/>
+        <element label="Pass" max_length="40" name="comment_pass_4" type="boolean"/>
+        <element label="Pass" max_length="40" name="comment_pass_5" type="boolean"/>
         <element label="ContinueStatements" max_length="40" name="continuestatementcount" type="integer"/>
         <element hint="High numbers here are GOOD! These are GlideSystem or GSLog debug messages. The can be filtered out on production systems, but enabled when debugging is necessary (like at upgrade test time)" label="DebugCalls" max_length="40" name="debugcallcount" type="integer"/>
         <element label="DebuggerStatements" max_length="40" name="debuggerstatementcount" type="integer"/>
@@ -50,7 +60,17 @@
         <element label="LinesOfTestCode" max_length="40" name="linesoftestcode" type="integer"/>
         <element default="true" label="Local" max_length="40" name="local" type="boolean"/>
         <element hint="High numbers here are GOOD! These are GlideSystem or GSLog info|warn|error messages. Filtering can be configured on production systems " label="LogCalls" max_length="40" name="logcallcount" type="integer"/>
+        <element label="Script" max_length="1024" name="logging_1" type="url"/>
+        <element label="Script" max_length="1024" name="logging_2" type="url"/>
+        <element label="Script" max_length="1024" name="logging_3" type="url"/>
+        <element label="Script" max_length="1024" name="logging_4" type="url"/>
+        <element label="Script" max_length="1024" name="logging_5" type="url"/>
         <element label="LogPercentage" max_length="20" name="logpercentage" type="decimal"/>
+        <element label="Pass" max_length="40" name="log_pass_1" type="boolean"/>
+        <element label="Pass" max_length="40" name="log_pass_2" type="boolean"/>
+        <element label="Pass" max_length="40" name="log_pass_3" type="boolean"/>
+        <element label="Pass" max_length="40" name="log_pass_4" type="boolean"/>
+        <element label="Pass" max_length="40" name="log_pass_5" type="boolean"/>
         <element label="LowCommentPct" max_length="15" name="lowcommentpct" type="decimal"/>
         <element label="LowDebugPct" max_length="15" name="lowdebugpct" type="decimal"/>
         <element label="LowExceptionPct" max_length="15" name="lowexceptionpct" type="decimal"/>
@@ -70,9 +90,9 @@
         <element label="Package query" max_length="1000" name="package_query" type="string"/>
         <element label="Pass" max_length="40" name="pass_1" type="boolean"/>
         <element label="Pass" max_length="40" name="pass_2" type="boolean"/>
-        <element label="Pass 3" max_length="40" name="pass_3" type="boolean"/>
-        <element label="Pass 4" max_length="40" name="pass_4" type="boolean"/>
-        <element label="Pass 5" max_length="40" name="pass_5" type="boolean"/>
+        <element label="Pass" max_length="40" name="pass_3" type="boolean"/>
+        <element label="Pass" max_length="40" name="pass_4" type="boolean"/>
+        <element label="Pass" max_length="40" name="pass_5" type="boolean"/>
         <element label="PortalLogic" max_length="40" name="portallogic" type="integer"/>
         <element label="Processors" max_length="40" name="processors" type="integer"/>
         <element label="ProCommentPct" max_length="15" name="procommentpct" type="decimal"/>
@@ -92,14 +112,19 @@
         <element hint="The percentage of all logic and config records (typically, but not exclusively application files), ATF tests and steps excluded,  that are in a private scope" label="ScopedPackagingPct" max_length="20" name="scopedpackagingpercentage" type="decimal"/>
         <element label="ScriptActions" max_length="40" name="scriptactions" type="integer"/>
         <element label="ScriptedConfig" max_length="40" name="scriptedconfig" type="integer"/>
+        <element label="Test" max_length="1024" name="scripted_test_1" type="url"/>
+        <element label="Test" max_length="1024" name="scripted_test_2" type="url"/>
+        <element label="Test" max_length="1024" name="scripted_test_3" type="url"/>
+        <element label="Test" max_length="1024" name="scripted_test_4" type="url"/>
+        <element label="Test" max_length="1024" name="scripted_test_5" type="url"/>
         <element label="ScriptIncludes" max_length="40" name="scriptincludes" type="integer"/>
         <element hint="The total number of nodes in the abstract syntax trees of all scripts. A measure of scale and complexity." label="ScriptSize" max_length="40" name="scriptsize" type="integer"/>
         <element hint="A White-box Testing Metric - The % of scripted library functions (in Script Includes and global Business Rules) tested by one more more scripted ATF test steps. " label="ScriptTestCoverage" max_length="20" name="scripttestpercentage" type="decimal"/>
         <element attributes="edge_encryption_enabled=true" label="Script" max_length="1024" name="script_1" type="url"/>
         <element attributes="edge_encryption_enabled=true" label="Script" max_length="1024" name="script_2" type="url"/>
-        <element attributes="edge_encryption_enabled=true" label="Script 3" max_length="1024" name="script_3" type="url"/>
-        <element attributes="edge_encryption_enabled=true" label="Script 4" max_length="1024" name="script_4" type="url"/>
-        <element attributes="edge_encryption_enabled=true" label="Script 5" max_length="1024" name="script_5" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="Script" max_length="1024" name="script_3" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="Script" max_length="1024" name="script_4" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="Script" max_length="1024" name="script_5" type="url"/>
         <element label="Started" max_length="40" name="started" type="glide_date_time"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="Ready" label="Status" max_length="40" name="status" type="string">
             <choice>
@@ -110,12 +135,22 @@
                 <element inactive_on_update="false" label="Error" sequence="4" value="Error"/>
             </choice>
         </element>
+        <element label="Pass" max_length="40" name="stest_pass_1" type="boolean"/>
+        <element label="Pass" max_length="40" name="stest_pass_2" type="boolean"/>
+        <element label="Pass" max_length="40" name="stest_pass_3" type="boolean"/>
+        <element label="Pass" max_length="40" name="stest_pass_4" type="boolean"/>
+        <element label="Pass" max_length="40" name="stest_pass_5" type="boolean"/>
         <element label="SwitchStatements" max_length="40" name="switchstatementcount" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" label="Test 1" max_length="1024" name="test_1" type="url"/>
-        <element attributes="edge_encryption_enabled=true" label="Test 2" max_length="1024" name="test_2" type="url"/>
-        <element attributes="edge_encryption_enabled=true" label="Test 3" max_length="1024" name="test_3" type="url"/>
-        <element attributes="edge_encryption_enabled=true" label="Test 4" max_length="1024" name="test_4" type="url"/>
-        <element attributes="edge_encryption_enabled=true" label="Test 5" max_length="1024" name="test_5" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="Test" max_length="1024" name="test_1" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="Test" max_length="1024" name="test_2" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="Test" max_length="1024" name="test_3" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="Test" max_length="1024" name="test_4" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="Test" max_length="1024" name="test_5" type="url"/>
+        <element label="Pass" max_length="40" name="test_pass_1" type="boolean"/>
+        <element label="Pass" max_length="40" name="test_pass_2" type="boolean"/>
+        <element label="Pass" max_length="40" name="test_pass_3" type="boolean"/>
+        <element label="Pass" max_length="40" name="test_pass_4" type="boolean"/>
+        <element label="Pass" max_length="40" name="test_pass_5" type="boolean"/>
         <element label="ThrowStatements" max_length="40" name="throwstatementcount" type="integer"/>
         <element label="TotalConfig" max_length="40" name="totalconfig" type="integer"/>
         <element label="TotalLogic" max_length="40" name="totallogic" type="integer"/>
