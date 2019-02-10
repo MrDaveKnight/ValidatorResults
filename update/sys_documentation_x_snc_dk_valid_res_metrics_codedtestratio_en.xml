@@ -3,7 +3,7 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>codedtestratio</element>
             <help/>
-            <hint>A White-box Testing Metric - The total lines of scripted ATF test script divided by the total lines of library script (Script Includes and global Business Rules)</hint>
+            <hint>The total lines of scripted ATF test script divided by the total lines of library script (Script Includes and global Business Rules)</hint>
             <label>ScriptedTestRatio</label>
             <language>en</language>
             <name>x_snc_dk_valid_res_metrics</name>
@@ -13,7 +13,7 @@
             <sys_created_on>2018-09-26 18:02:48</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
             <sys_id>cd2b48694ff82700ea338e328110c756</sys_id>
-            <sys_mod_count>3</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_name>ScriptedTestRatio</sys_name>
             <sys_package display_value="Validator Results" source="x_snc_dk_valid_res">1d3708654ff82700ea338e328110c7c9</sys_package>
             <sys_policy/>
@@ -21,7 +21,7 @@
             <sys_scope display_value="Validator Results">1d3708654ff82700ea338e328110c7c9</sys_scope>
             <sys_update_name>sys_documentation_x_snc_dk_valid_res_metrics_codedtestratio_en</sys_update_name>
             <sys_updated_by>dave.knight</sys_updated_by>
-            <sys_updated_on>2018-11-03 13:24:15</sys_updated_on>
+            <sys_updated_on>2019-02-10 15:52:20</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

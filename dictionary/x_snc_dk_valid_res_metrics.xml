@@ -10,8 +10,8 @@
         <element label="BusinessRules" max_length="40" name="businessrules" type="integer"/>
         <element label="Package checksum" max_length="40" name="checksum" type="integer"/>
         <element label="ClientScripts" max_length="40" name="clientscripts" type="integer"/>
-        <element hint="A White-box Testing Metric - The total lines of scripted ATF test script divided by the total lines of library script (Script Includes and global Business Rules)" label="ScriptedTestRatio" max_length="20" name="codedtestratio" type="decimal"/>
-        <element hint="A Black-box Testing Metric - The total number of non-scripted ATF test steps divided by the total number of logic records, excluding scripted library logic records (Script Includes and global Business Rules, which should be White-box tested). Reference the embedded help in the sidebar for a definition of logic records" label="CodelessTestRatio" max_length="20" name="codelesstestratio" type="decimal"/>
+        <element hint="The total lines of scripted ATF test script divided by the total lines of library script (Script Includes and global Business Rules)" label="ScriptedTestRatio" max_length="20" name="codedtestratio" type="decimal"/>
+        <element hint="The total number of non-scripted ATF test steps divided by the total number of logic records, excluding scripted library logic records (Script Includes and global Business Rules, which should be White-box tested). Reference the embedded help in the sidebar for a definition of logic records" label="CodelessTestRatio" max_length="20" name="codelesstestratio" type="decimal"/>
         <element label="Script" max_length="1024" name="commented_1" type="url"/>
         <element label="Script" max_length="1024" name="commented_2" type="url"/>
         <element label="Script" max_length="1024" name="commented_3" type="url"/>
@@ -26,13 +26,13 @@
         <element label="ContinueStatements" max_length="40" name="continuestatementcount" type="integer"/>
         <element hint="High numbers here are GOOD! These are GlideSystem or GSLog debug messages. The can be filtered out on production systems, but enabled when debugging is necessary (like at upgrade test time)" label="DebugCalls" max_length="40" name="debugcallcount" type="integer"/>
         <element label="DebuggerStatements" max_length="40" name="debuggerstatementcount" type="integer"/>
-        <element label="DebugPercentage" max_length="20" name="debugpercentage" type="decimal"/>
+        <element hint="The % of code that is gs.debug or GSLog.debug statements" label="DebugPercentage" max_length="20" name="debugpercentage" type="decimal"/>
         <element label="Dictionary" max_length="40" name="dictionary" type="integer"/>
         <element label="DictionaryOverrides" max_length="40" name="dictionaryoverrides" type="integer"/>
         <element label="DiscoveryLogic" max_length="40" name="discoverylogic" type="integer"/>
         <element label="DoWhileStatements" max_length="40" name="dowhilestatementcount" type="integer"/>
         <element label="DynamicFilters" max_length="40" name="dynamicfilters" type="integer"/>
-        <element label="ExceptionPercentage" max_length="20" name="exceptionpercentage" type="decimal"/>
+        <element hint="The % of code that is exception handling (try/catch block)" label="ExceptionPercentage" max_length="20" name="exceptionpercentage" type="decimal"/>
         <element label="ExpressionStatements" max_length="40" name="expressionstatementcount" type="integer"/>
         <element label="FixScripts" max_length="40" name="fixscripts" type="integer"/>
         <element label="ForOfStatements" max_length="40" name="forofstatementcount" type="integer"/>
@@ -65,7 +65,7 @@
         <element label="Script" max_length="1024" name="logging_3" type="url"/>
         <element label="Script" max_length="1024" name="logging_4" type="url"/>
         <element label="Script" max_length="1024" name="logging_5" type="url"/>
-        <element label="LogPercentage" max_length="20" name="logpercentage" type="decimal"/>
+        <element hint="The % of code that is logging statements, e.g. gs.info, GSLog.warn, everything but debug and the deprecated gs.log" label="LogPercentage" max_length="20" name="logpercentage" type="decimal"/>
         <element label="Pass" max_length="40" name="log_pass_1" type="boolean"/>
         <element label="Pass" max_length="40" name="log_pass_2" type="boolean"/>
         <element label="Pass" max_length="40" name="log_pass_3" type="boolean"/>
@@ -119,13 +119,14 @@
         <element label="Test" max_length="1024" name="scripted_test_5" type="url"/>
         <element label="ScriptIncludes" max_length="40" name="scriptincludes" type="integer"/>
         <element hint="The total number of nodes in the abstract syntax trees of all scripts. A measure of scale and complexity." label="ScriptSize" max_length="40" name="scriptsize" type="integer"/>
-        <element hint="A White-box Testing Metric - The % of scripted library functions (in Script Includes and global Business Rules) tested by one more more scripted ATF test steps. " label="ScriptTestCoverage" max_length="20" name="scripttestpercentage" type="decimal"/>
+        <element hint="The % of scripted library functions (in Script Includes and global Business Rules) tested by one more more scripted ATF test steps. " label="ScriptTestCoverage" max_length="20" name="scripttestpercentage" type="decimal"/>
         <element attributes="edge_encryption_enabled=true" label="Script" max_length="1024" name="script_1" type="url"/>
         <element attributes="edge_encryption_enabled=true" label="Script" max_length="1024" name="script_2" type="url"/>
         <element attributes="edge_encryption_enabled=true" label="Script" max_length="1024" name="script_3" type="url"/>
         <element attributes="edge_encryption_enabled=true" label="Script" max_length="1024" name="script_4" type="url"/>
         <element attributes="edge_encryption_enabled=true" label="Script" max_length="1024" name="script_5" type="url"/>
         <element label="Started" max_length="40" name="started" type="glide_date_time"/>
+        <element hint="The % of task state and stages created in the accelerator tested by one more more scripted ATF test steps" label="StateTestCoverage" max_length="15" name="statetestcoverage" type="decimal"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="Ready" label="Status" max_length="40" name="status" type="string">
             <choice>
                 <element inactive_on_update="false" label="Ready" sequence="0" value="Ready"/>
@@ -141,6 +142,7 @@
         <element label="Pass" max_length="40" name="stest_pass_4" type="boolean"/>
         <element label="Pass" max_length="40" name="stest_pass_5" type="boolean"/>
         <element label="SwitchStatements" max_length="40" name="switchstatementcount" type="integer"/>
+        <element hint="The % of tables created in the accelerator tested by one more more scripted ATF test steps" label="TableTestCoverage" max_length="15" name="tabletestcoverage" type="decimal"/>
         <element attributes="edge_encryption_enabled=true" label="Test" max_length="1024" name="test_1" type="url"/>
         <element attributes="edge_encryption_enabled=true" label="Test" max_length="1024" name="test_2" type="url"/>
         <element attributes="edge_encryption_enabled=true" label="Test" max_length="1024" name="test_3" type="url"/>

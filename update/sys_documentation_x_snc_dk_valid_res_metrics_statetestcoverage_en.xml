@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="exceptionpercentage" label="ExceptionPercentage" language="en" table="x_snc_dk_valid_res_metrics">
+    <sys_documentation element="statetestcoverage" label="StateTestCoverage" language="en" table="x_snc_dk_valid_res_metrics">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>exceptionpercentage</element>
+            <element>statetestcoverage</element>
             <help/>
-            <hint>The % of code that is exception handling (try/catch block)</hint>
-            <label>ExceptionPercentage</label>
+            <hint>The % of task state and stages created in the accelerator tested by one more more scripted ATF test steps</hint>
+            <label>StateTestCoverage</label>
             <language>en</language>
             <name>x_snc_dk_valid_res_metrics</name>
-            <plural>ExceptionPercentages</plural>
+            <plural>StateTestCoverages</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>dave.knight</sys_created_by>
-            <sys_created_on>2018-09-26 18:05:51</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
-            <sys_id>75db00a94ff82700ea338e328110c7cd</sys_id>
+            <sys_created_on>2019-02-10 15:51:53</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>8ffe09ad4fe36b0056faac118110c7f8</sys_id>
             <sys_mod_count>1</sys_mod_count>
-            <sys_name>ExceptionPercentage</sys_name>
+            <sys_name>StateTestCoverage</sys_name>
             <sys_package display_value="Validator Results" source="x_snc_dk_valid_res">1d3708654ff82700ea338e328110c7c9</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Validator Results">1d3708654ff82700ea338e328110c7c9</sys_scope>
-            <sys_update_name>sys_documentation_x_snc_dk_valid_res_metrics_exceptionpercentage_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_snc_dk_valid_res_metrics_statetestcoverage_en</sys_update_name>
             <sys_updated_by>dave.knight</sys_updated_by>
-            <sys_updated_on>2019-02-10 15:59:15</sys_updated_on>
+            <sys_updated_on>2019-02-10 15:58:01</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

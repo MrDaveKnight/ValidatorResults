@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="debugpercentage" label="DebugPercentage" language="en" table="x_snc_dk_valid_res_metrics">
+    <sys_documentation element="tabletestcoverage" label="TableTestCoverage" language="en" table="x_snc_dk_valid_res_metrics">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>debugpercentage</element>
+            <element>tabletestcoverage</element>
             <help/>
-            <hint>The % of code that is gs.debug or GSLog.debug statements</hint>
-            <label>DebugPercentage</label>
+            <hint>The % of tables created in the accelerator tested by one more more scripted ATF test steps</hint>
+            <label>TableTestCoverage</label>
             <language>en</language>
             <name>x_snc_dk_valid_res_metrics</name>
-            <plural>DebugPercentages</plural>
+            <plural>TableTestCoverages</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>dave.knight</sys_created_by>
-            <sys_created_on>2018-09-26 18:05:51</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
-            <sys_id>3ddb00a94ff82700ea338e328110c7c9</sys_id>
+            <sys_created_on>2019-02-10 15:51:53</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>4bfe09ad4fe36b0056faac118110c7f5</sys_id>
             <sys_mod_count>2</sys_mod_count>
-            <sys_name>DebugPercentage</sys_name>
+            <sys_name>TableTestCoverage</sys_name>
             <sys_package display_value="Validator Results" source="x_snc_dk_valid_res">1d3708654ff82700ea338e328110c7c9</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Validator Results">1d3708654ff82700ea338e328110c7c9</sys_scope>
-            <sys_update_name>sys_documentation_x_snc_dk_valid_res_metrics_debugpercentage_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_snc_dk_valid_res_metrics_tabletestcoverage_en</sys_update_name>
             <sys_updated_by>dave.knight</sys_updated_by>
-            <sys_updated_on>2019-02-10 16:01:53</sys_updated_on>
+            <sys_updated_on>2019-02-10 15:55:30</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
