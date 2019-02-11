@@ -49,7 +49,7 @@
         <sys_created_by>dave.knight</sys_created_by>
         <sys_created_on>2019-02-10 15:51:53</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>c7fe09ad4fe36b0056faac118110c7f7</sys_id>
+        <sys_id>047d22b54fe3ab0056faac118110c7f4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>StateTestCoverage</sys_name>
         <sys_package display_value="Validator Results" source="x_snc_dk_valid_res">1d3708654ff82700ea338e328110c7c9</sys_package>
@@ -57,8 +57,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Validator Results">1d3708654ff82700ea338e328110c7c9</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_dk_valid_res_metrics_statetestcoverage</sys_update_name>
-        <sys_updated_by>dave.knight</sys_updated_by>
-        <sys_updated_on>2019-02-10 15:51:53</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-02-11 17:23:48</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

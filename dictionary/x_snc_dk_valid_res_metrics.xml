@@ -27,6 +27,7 @@
         <element hint="High numbers here are GOOD! These are GlideSystem or GSLog debug messages. The can be filtered out on production systems, but enabled when debugging is necessary (like at upgrade test time)" label="DebugCalls" max_length="40" name="debugcallcount" type="integer"/>
         <element label="DebuggerStatements" max_length="40" name="debuggerstatementcount" type="integer"/>
         <element hint="The % of code that is gs.debug or GSLog.debug statements" label="DebugPercentage" max_length="20" name="debugpercentage" type="decimal"/>
+        <element label="DefenseGauge" max_length="15" name="defensegauge" type="decimal"/>
         <element label="Dictionary" max_length="40" name="dictionary" type="integer"/>
         <element label="DictionaryOverrides" max_length="40" name="dictionaryoverrides" type="integer"/>
         <element label="DiscoveryLogic" max_length="40" name="discoverylogic" type="integer"/>
@@ -110,6 +111,7 @@
         <element label="ScopedConfig" max_length="40" name="scopedconfig" type="integer"/>
         <element label="ScopedLogic" max_length="40" name="scopedlogic" type="integer"/>
         <element hint="The percentage of all logic and config records (typically, but not exclusively application files), ATF tests and steps excluded,  that are in a private scope" label="ScopedPackagingPct" max_length="20" name="scopedpackagingpercentage" type="decimal"/>
+        <element label="ScopeGauge" max_length="15" name="scopegauge" type="decimal"/>
         <element label="ScriptActions" max_length="40" name="scriptactions" type="integer"/>
         <element label="ScriptedConfig" max_length="40" name="scriptedconfig" type="integer"/>
         <element label="Test" max_length="1024" name="scripted_test_1" type="url"/>
@@ -143,6 +145,7 @@
         <element label="Pass" max_length="40" name="stest_pass_5" type="boolean"/>
         <element label="SwitchStatements" max_length="40" name="switchstatementcount" type="integer"/>
         <element hint="The % of tables created in the accelerator tested by one more more scripted ATF test steps" label="TableTestCoverage" max_length="15" name="tabletestcoverage" type="decimal"/>
+        <element label="TestGauge" max_length="15" name="testgauge" type="decimal"/>
         <element attributes="edge_encryption_enabled=true" label="Test" max_length="1024" name="test_1" type="url"/>
         <element attributes="edge_encryption_enabled=true" label="Test" max_length="1024" name="test_2" type="url"/>
         <element attributes="edge_encryption_enabled=true" label="Test" max_length="1024" name="test_3" type="url"/>
