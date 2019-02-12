@@ -1,170 +1,195 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Mitigation Summary" section_id="04d1feb14f27ab0056faac118110c772" sys_domain="global" table="x_snc_dk_valid_res_metrics" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>dave.knight</sys_created_by>
+            <sys_created_on>2019-02-12 04:04:23</sys_created_on>
+            <sys_id>3a30c1c24fabab0056faac118110c7f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dave.knight</sys_updated_by>
+            <sys_updated_on>2019-02-12 04:04:23</sys_updated_on>
+            <text>Percentage Achievement of Mitigation Criteria</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.begin_split</element>
+            <element>3a30c1c24fabab0056faac118110c7f6</element>
             <position>0</position>
             <sys_created_by>dave.knight</sys_created_by>
-            <sys_created_on>2019-02-11 21:08:04</sys_created_on>
-            <sys_id>acf02b354fa7ab0056faac118110c74c</sys_id>
+            <sys_created_on>2019-02-12 04:04:23</sys_created_on>
+            <sys_id>ba3045c24fabab0056faac118110c7b6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Mitigation Summary" display_value="Mitigation Summary" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">04d1feb14f27ab0056faac118110c772</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
-            <sys_updated_on>2019-02-11 21:08:04</sys_updated_on>
+            <sys_updated_on>2019-02-12 04:04:23</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>dave.knight</sys_created_by>
+            <sys_created_on>2019-02-12 04:04:23</sys_created_on>
+            <sys_id>3e3045c24fabab0056faac118110c7b6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Mitigation Summary" display_value="Mitigation Summary" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">04d1feb14f27ab0056faac118110c772</sys_ui_section>
+            <sys_updated_by>dave.knight</sys_updated_by>
+            <sys_updated_on>2019-02-12 04:04:23</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>0ede97b14fa7ab0056faac118110c7ef</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>dave.knight</sys_created_by>
-            <sys_created_on>2019-02-11 21:08:04</sys_created_on>
-            <sys_id>20f02b354fa7ab0056faac118110c74d</sys_id>
+            <sys_created_on>2019-02-12 04:04:23</sys_created_on>
+            <sys_id>be3045c24fabab0056faac118110c7b6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Mitigation Summary" display_value="Mitigation Summary" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">04d1feb14f27ab0056faac118110c772</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
-            <sys_updated_on>2019-02-11 21:08:04</sys_updated_on>
+            <sys_updated_on>2019-02-12 04:04:23</sys_updated_on>
             <sys_user/>
             <type>chart</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>dave.knight</sys_created_by>
-            <sys_created_on>2019-02-11 21:08:04</sys_created_on>
-            <sys_id>a0f02b354fa7ab0056faac118110c74d</sys_id>
+            <sys_created_on>2019-02-12 04:04:23</sys_created_on>
+            <sys_id>323045c24fabab0056faac118110c7b7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Mitigation Summary" display_value="Mitigation Summary" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">04d1feb14f27ab0056faac118110c772</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
-            <sys_updated_on>2019-02-11 21:08:04</sys_updated_on>
+            <sys_updated_on>2019-02-12 04:04:23</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>dave.knight</sys_created_by>
-            <sys_created_on>2019-02-11 21:08:04</sys_created_on>
-            <sys_id>24f02b354fa7ab0056faac118110c74d</sys_id>
+            <sys_created_on>2019-02-12 04:04:23</sys_created_on>
+            <sys_id>b23045c24fabab0056faac118110c7b7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Mitigation Summary" display_value="Mitigation Summary" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">04d1feb14f27ab0056faac118110c772</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
-            <sys_updated_on>2019-02-11 21:08:04</sys_updated_on>
+            <sys_updated_on>2019-02-12 04:04:23</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>dave.knight</sys_created_by>
-            <sys_created_on>2019-02-11 21:08:04</sys_created_on>
-            <sys_id>a4f02b354fa7ab0056faac118110c74d</sys_id>
+            <sys_created_on>2019-02-12 04:04:23</sys_created_on>
+            <sys_id>363045c24fabab0056faac118110c7b7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Mitigation Summary" display_value="Mitigation Summary" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">04d1feb14f27ab0056faac118110c772</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
-            <sys_updated_on>2019-02-11 21:08:04</sys_updated_on>
+            <sys_updated_on>2019-02-12 04:04:23</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>38ff1bf14fa7ab0056faac118110c752</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>dave.knight</sys_created_by>
-            <sys_created_on>2019-02-11 21:08:04</sys_created_on>
-            <sys_id>28f02b354fa7ab0056faac118110c74d</sys_id>
+            <sys_created_on>2019-02-12 04:04:23</sys_created_on>
+            <sys_id>b63045c24fabab0056faac118110c7b7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Mitigation Summary" display_value="Mitigation Summary" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">04d1feb14f27ab0056faac118110c772</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
-            <sys_updated_on>2019-02-11 21:08:04</sys_updated_on>
+            <sys_updated_on>2019-02-12 04:04:23</sys_updated_on>
             <sys_user/>
             <type>chart</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>dave.knight</sys_created_by>
-            <sys_created_on>2019-02-11 21:08:04</sys_created_on>
-            <sys_id>a8f02b354fa7ab0056faac118110c74d</sys_id>
+            <sys_created_on>2019-02-12 04:04:23</sys_created_on>
+            <sys_id>3a3045c24fabab0056faac118110c7b7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Mitigation Summary" display_value="Mitigation Summary" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">04d1feb14f27ab0056faac118110c772</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
-            <sys_updated_on>2019-02-11 21:08:04</sys_updated_on>
+            <sys_updated_on>2019-02-12 04:04:23</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>dave.knight</sys_created_by>
-            <sys_created_on>2019-02-11 21:08:04</sys_created_on>
-            <sys_id>2cf02b354fa7ab0056faac118110c74d</sys_id>
+            <sys_created_on>2019-02-12 04:04:23</sys_created_on>
+            <sys_id>ba3045c24fabab0056faac118110c7b7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Mitigation Summary" display_value="Mitigation Summary" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">04d1feb14f27ab0056faac118110c772</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
-            <sys_updated_on>2019-02-11 21:08:04</sys_updated_on>
+            <sys_updated_on>2019-02-12 04:04:23</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.begin_split</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>dave.knight</sys_created_by>
-            <sys_created_on>2019-02-11 21:08:04</sys_created_on>
-            <sys_id>acf02b354fa7ab0056faac118110c74d</sys_id>
+            <sys_created_on>2019-02-12 04:04:23</sys_created_on>
+            <sys_id>3e3045c24fabab0056faac118110c7b7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Mitigation Summary" display_value="Mitigation Summary" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">04d1feb14f27ab0056faac118110c772</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
-            <sys_updated_on>2019-02-11 21:08:04</sys_updated_on>
+            <sys_updated_on>2019-02-12 04:04:23</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>f09023354fa7ab0056faac118110c727</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>dave.knight</sys_created_by>
-            <sys_created_on>2019-02-11 21:08:04</sys_created_on>
-            <sys_id>20f02b354fa7ab0056faac118110c74e</sys_id>
+            <sys_created_on>2019-02-12 04:04:23</sys_created_on>
+            <sys_id>be3045c24fabab0056faac118110c7b7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Mitigation Summary" display_value="Mitigation Summary" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">04d1feb14f27ab0056faac118110c772</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
-            <sys_updated_on>2019-02-11 21:08:04</sys_updated_on>
+            <sys_updated_on>2019-02-12 04:04:23</sys_updated_on>
             <sys_user/>
             <type>chart</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>10</position>
+            <position>11</position>
             <sys_created_by>dave.knight</sys_created_by>
-            <sys_created_on>2019-02-11 21:08:04</sys_created_on>
-            <sys_id>a0f02b354fa7ab0056faac118110c74e</sys_id>
+            <sys_created_on>2019-02-12 04:04:23</sys_created_on>
+            <sys_id>323045c24fabab0056faac118110c7b8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Mitigation Summary" display_value="Mitigation Summary" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">04d1feb14f27ab0056faac118110c772</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
-            <sys_updated_on>2019-02-11 21:08:04</sys_updated_on>
+            <sys_updated_on>2019-02-12 04:04:23</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>11</position>
+            <position>12</position>
             <sys_created_by>dave.knight</sys_created_by>
-            <sys_created_on>2019-02-11 21:08:04</sys_created_on>
-            <sys_id>24f02b354fa7ab0056faac118110c74e</sys_id>
+            <sys_created_on>2019-02-12 04:04:23</sys_created_on>
+            <sys_id>b23045c24fabab0056faac118110c7b8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Mitigation Summary" display_value="Mitigation Summary" name="x_snc_dk_valid_res_metrics" sys_domain="global" view="Default view">04d1feb14f27ab0056faac118110c772</sys_ui_section>
             <sys_updated_by>dave.knight</sys_updated_by>
-            <sys_updated_on>2019-02-11 21:08:04</sys_updated_on>
+            <sys_updated_on>2019-02-12 04:04:23</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
