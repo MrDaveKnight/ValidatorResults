@@ -6,6 +6,7 @@
         <element hint="Count of all ATF test steps, both active and inactive" label="TestSteps" max_length="40" name="atfteststeps" type="integer"/>
         <element label="Autorun" max_length="40" name="autorun" type="boolean"/>
         <element label="BlockStatements" max_length="40" name="blockstatementcount" type="integer"/>
+        <element hint="The number of packaged &quot;out-of-the-box&quot; application files that have been modified " label="BoxFileCount" max_length="40" name="boxfilecount" type="integer"/>
         <element label="BreakStatements" max_length="40" name="breakstatementcount" type="integer"/>
         <element label="BusinessRules" max_length="40" name="businessrules" type="integer"/>
         <element label="Package checksum" max_length="40" name="checksum" type="integer"/>
