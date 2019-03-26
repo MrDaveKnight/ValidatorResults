@@ -80,6 +80,7 @@
         <element label="LowLogPct" max_length="15" name="lowlogpct" type="decimal"/>
         <element hint="Total number of logic and config records (typically but not exclusively application files) managed by the package being validated, i.e. created or updated records" label="FileCount" max_length="40" name="modifiedfilecount" type="integer"/>
         <element hint="Total number of scripted library functions managed by the package being valided. These functions are contained in library logic records (Script Includes and global Business Rules) that have been created or updated in the package" label="MethodCount" max_length="40" name="modifiedmethodcount" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Modified OOTB files" max_length="4000" name="modified_ootb_files" type="html"/>
         <element label="NoCommentFiles" max_length="40" name="nocommentfilecount" type="integer"/>
         <element hint="Declarative &quot;No Code&quot; logic, e.g. data lookup definitions or &quot;scriptless&quot; workflow activities and business rules" label="NoCodeLogic" max_length="40" name="nologic" type="integer"/>
         <element label="Notifications" max_length="40" name="notifications" type="integer"/>
